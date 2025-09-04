@@ -1,45 +1,42 @@
 
 
 const Testimony = () => {
+  const handleBookNowClick = () => {
+    console.log();
+  }
   return (
    <section className="h-100 bg-customBlue text-white px-16 py-20">
       <div className="text-center">
-            <h1 className=" text-5xl font-bold mt-5 mb-4">
+            <h1 className=" md:text-7xl lg:text-7xl text-[33px] font-bold md:mt-5 lg:mt-5 md:mb-4 lg:mb-4 mt-3 mb-2">
                 Why Savilles?
             </h1>
         </div>
-        <div className="w-[550px] h-[267px] m-8 max-w-2xl mx-auto font-thin text-center text-[16px] tracking-wider leading-normal">
-            <p>
+        <div className=" md:w-[669px] lg:w-[669px] md:h-[144px] lg:h-[144px] w-[269px] h-[182px] text-[10px] md:m-8 lg:m-8  mx-auto font-thin text-center  md:text-[20px] lg:text-[20px] tracking-wider leading-normal">
+            <p className="">
 We are committed to offering reliable, efficient, and professional service, ensuring your garments are returned looking their best. When you choose Savilles, you're choosing a service that values your clothes as much as you do.
                   </p>
         </div>
        
-             <div className="">
  
-  <div className="flex w-[550px] m-2 mx-auto gap-4">
-    <img src="src/assets/icons/quote.open.png" alt="" className="h-[68px] w-[90px]"/>
-    <p className="max-w-3xl font-thin text-center text-[22px]">
+  <div className="flex md:w-[883px] lg:w-[883px] md:m-2 lg:m-2 mx-auto gap-4">
+    <img src="src/assets/icons/quote.open.png" alt="" className="md:h-[65px] lg:h-[65px] md:w-[87px] lg:w-[87px] w-[32px] h-[21px] "/>
+    <p className=" font-thin text-center md:text-[32px] lg:text-[32px] text-[14px]">
       They are always on time, and as I have little time for myself I use their
       services through during working hours.
     </p>
-    <img src="src/assets/icons/quote.close.png"alt=""className="h-[68px] w-[90px]"/>
+    <img src="src/assets/icons/quote.close.png"alt=""className="md:h-[65px] lg:h-[65px] md:w-[87px] lg:w-[87px] w-[32px] h-[21px]"/>
   </div>
 
   
-  <div className="w-[550px] ml-auto">
+  <div className="md:w-[550px] lg:w-[550px] h-[22px] w-[39px] ml-auto">
     <img src="src\assets\images\Google-Review-Logo 1.png" alt="" className="  block mt-4"/>
   </div>
 
   
-  <div className="flex px-32 py-16 justify-center">
-    <button
-      type="button"
-      className="flex gap-2 text-customBlue bg-customYellow items-center font-semibold text-2xl rounded-full px-16 py-4 text-center transition-colors duration-300 hover:bg-yellow-600">
-      <span>Book Now</span>
-      <img src="src/assets/icons/arrow-up-right.png" alt="" className="w-4 h-4" />
-    </button>
-  </div>
-</div>
+<div className=" flex md:px-32 lg:px-32 md:py-16 px-10 py-4 lg:py-16 justify-center ">
+             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold md:text-2xl lg:text-2xl text-[14px] md:rounded-full lg:rounded-full rounded-md px-8 py-4 md:px-16 lg:px-16 md:py-4 lg:py-4  text-center transition-colors duration-300 hover:bg-yellow-600 " onClick={handleBookNowClick}><span>Book Now</span></button>
+            </div>
+
 
    </section>
   )
