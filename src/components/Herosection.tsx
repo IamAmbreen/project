@@ -8,7 +8,7 @@ const Herosection = () => {
   return (
    <section className="flex flex-col lg:flex-row md:flex-row items-center bg-customBlue text-white">
   <div className="lg:ml-28 flex flex-col py-6 items-center md:items-start lg:items-start text-center md:text-left px-8 md:pl-16 md:w-[680px] md:h-[546px] lg:h-[546px] lg:w-[680px] w-[386px]">
-    <p className="mb-3 md:mb-none uppercase md:mt-10 lg:mt-10 lg:w-[680px] text-xl lg:text-6xl md:text-6xl font-bold tracking-wider leading-tight">
+    <p className="mb-3 md:mb-none uppercase md:mt-10 lg:mt-10 lg:w-[680px] md:w-[680px] w-[380px] text-3xl lg:text-6xl md:text-6xl font-bold tracking-wider leading-tight">
      Cobhem's dry
      cleaning & 
      laundary service
