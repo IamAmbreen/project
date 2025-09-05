@@ -26,8 +26,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-customBlue text-neutral-600 border-b-2 border-neutral-600 px-4 md:px-16 lg:px-16 py-4">
-      <div className="flex items-center justify-between">
+    <nav className="bg-customBlue text-neutral-600 border-b-2 border-neutral-600 px-4 md:px-16 lg:px-16 py-4 ">
+      <div className="flex items-center justify-between lg:ml-28 text-[16px]">
         
         <div className="flex items-center">
          
@@ -42,7 +42,7 @@ const Navbar = () => {
           <img
             src="src/assets/images/Logo.png"
             alt="logo"
-            className="h-12 w-auto md:h-16 lg:h-16" />
+            className="h-12 w-auto md:h-[100px] lg:h-[100px]" />
 
         
           <ul className="hidden md:flex items-center gap-8 font-normal font-inter ml-8">
@@ -63,12 +63,8 @@ const Navbar = () => {
           <a href="#" className="md:hidden lg:hidden text-white text-sm mr-4">
             Login
           </a>
-          <button
-            type="button"
-            className="text-customBlue bg-customYellow font-medium rounded-md text-sm px-6 py-2 text-center transition-colors duration-300 hover:bg-yellow-600"
-            onClick={handleBookNowClick}>
-            Book Now
-          </button>
+                <button type="button" className="text-customBlue bg-customYellow items-center font-medium rounded-md md:text-xl lg:text-xl text-[16px] md:px-8 lg:px-8 py-2 px-4 md:py-4 lg:py-4 text-center transition-colors duration-300 hover:bg-yellow-600 md:rounded-full " onClick={handleBookNowClick}>Book Now</button>
+
         </div>
       </div>
 

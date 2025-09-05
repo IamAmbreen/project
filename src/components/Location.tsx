@@ -1,6 +1,6 @@
 
 
-const Section4 = () => {
+const Location = () => {
   return (
     <section className="h-100 text-customBlue bg-white pt-14">
         <div className="  text-center mx-auto ">
@@ -30,4 +30,4 @@ With branches in Clapham Junction, Putney, and Tooting, we cover a wide range of
   )
 }
 
-export default Section4
+export default Location

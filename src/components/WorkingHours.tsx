@@ -1,11 +1,11 @@
 
 
-const Section5 = () => {
+const WorkingHours = () => {
   const handleOrderClick = () => {
     console.log()
   }
   return (
-   <section className="h-100 bg-customBlue text-white px-16 py-20">
+   <section className="h-100 bg-customBlue text-white md:px-16 lg:px-16 px-8 py-20">
     <div className="md:w-full md:max-w-7xl lg:w-full lg:max-w-7xl w-[317px] mx-auto">
  <div>
         <ul className="m:space-y-4 lg:space-y-4 space-y-2 md:w-full lg:w-full md:max-w-7xl lg:max-w-7xl mx-auto w-full  md:mt-10 lg:mt-10 md:text-[24px]  lg:text-[24px] text-[12px]">
@@ -64,4 +64,4 @@ const Section5 = () => {
   )
 }
 
-export default Section5
+export default WorkingHours

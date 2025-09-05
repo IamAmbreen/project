@@ -7,10 +7,10 @@ const Herosection = () => {
 
   return (
    <section className="flex flex-col lg:flex-row md:flex-row items-center bg-customBlue text-white">
-  <div className="flex flex-col py-6 items-center md:items-start text-center md:text-left px-8 md:pl-16 w-full md:w-1/2">
-    <p className="mb-3 md:mb-none uppercase md:mt-10 lg:mt-10 text-3xl md:text-6xl font-bold tracking-wider leading-tight">
-     Cobhem's dry<br/>
-     cleaning & <br/>
+  <div className="lg:ml-28 flex flex-col py-6 items-center md:items-start lg:items-start text-center md:text-left px-8 md:pl-16 md:w-[680px] md:h-[546px] lg:h-[546px] lg:w-[680px] w-[386px]">
+    <p className="mb-3 md:mb-none uppercase md:mt-10 lg:mt-10 lg:w-[680px] text-xl lg:text-6xl md:text-6xl font-bold tracking-wider leading-tight">
+     Cobhem's dry
+     cleaning & 
      laundary service
 </p>
  <p className="md:hidden lg:hidden w-[219px] text-xl font-light">
@@ -21,8 +21,8 @@ const Herosection = () => {
     </div>
   </div>
 
-  <div className="hidden  lg:h-full lg:flex lg:justify-end">
-    <img src="src\assets\images\image.png" alt="Laundry Service" className=" lg:w-full lg:h-auto lg:object-cover "/>
+  <div className="hidden  lg:h-[546px] md:h-[546px] lg:flex ml-auto">
+    <img src="src\assets\images\image.png" alt="Laundry Service" className="  md:h-[546px] lg:h-[546px]"/>
   </div>
 </section>
 

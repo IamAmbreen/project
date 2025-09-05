@@ -1,6 +1,6 @@
 
 
-const Section3 = () => {
+const Pricing = () => {
   const handlePriceListClick = () => {
     console.log()
   }
@@ -19,7 +19,7 @@ const Section3 = () => {
  
 
   <ul className="space-y-5 ">
-    <li className="font-medium"> Cleaned and <br/> ironed</li>
+    <li className="font-medium lg:w-[130px] md:w-[130px] w-[100px]"> Cleaned and ironed</li>
     <li className="flex justify-between  font-light">
       <span className="flex items-center gap-2">
         <img src="src\assets\icons\Vector.png" alt="" /> <span>Shirt Hanger</span>
@@ -61,7 +61,7 @@ const Section3 = () => {
 
 
   <ul className="space-y-5 ">
-    <li className="font-medium"> Wash,dry and <br/> fold</li>
+    <li className="font-medium lg:w-[130px] md:w-[130px] w-[100px]"> Wash,dry and fold</li>
     <li className="flex justify-between  font-light">
       <span className="flex items-center gap-2">
         <img src="src\assets\icons\Vector.png" alt="" /> <span>Shirt (Hanger)</span>
@@ -103,7 +103,7 @@ const Section3 = () => {
 
 
   <ul className="space-y-5 ">
-    <li className="font-medium"> Wash,dry and <br/> fold</li>
+    <li className="font-medium lg:w-[130px] md:w-[130px] w-[100px]"> Wash,dry and fold</li>
     <li className="flex justify-between  font-light">
       <span className="flex items-center gap-2">
         <img src="src\assets\icons\Vector.png" alt="" /> <span>Shirt (Hanger)</span>
@@ -150,4 +150,4 @@ const Section3 = () => {
   )
 }
 
-export default Section3
+export default Pricing

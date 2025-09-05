@@ -2,26 +2,26 @@
 import Faq from "./components/Faq"
 import Herosection from "./components/Herosection"
 import Navbar from "./components/Navbar"
-import Section2 from "./components/Section2"
-import Section3 from "./components/Section3"
-import Section4 from "./components/Section4"
-import Section5 from "./components/Section5"
-import Section6 from "./components/Section6"
+import WorkingProcess from "./components/WorkingProcess.tsx"
+import Pricing from "./components/Pricing.tsx"
+import Location from "./components/Location"
+import WorkingHours from "./components/WorkingHours"
+import Testimonial from "./components/Testimonial"
 import Footersection from "./components/Footersection.tsx"
 import Services from "./components/Services"
-import Testimony from "./components/Testimony"
+import WhoWeAre from "./components/WhoWeAre"
 function App() {
 
   return (
     <div>
       <Navbar/>
       <Herosection/>
-       <Section2/>
-       <Section3/>
-       <Section4/>
-       <Section5/>
-       <Section6/>
-       <Testimony/>
+       <WorkingProcess/>
+       <Pricing/>
+       <Location/>
+       <WorkingHours/>
+       <Testimonial/>
+       <WhoWeAre/>
        <Faq/>
        <Services/>
        <Footersection/>
