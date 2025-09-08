@@ -23,26 +23,26 @@ const Footersection = () => {
                   </li>
 
                    <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-20 lg:gap-20">
-                  <span className=" text-start transition-opacity duration-300 hover:opacity-50"><a href="#">Email Marketing</a></span>
-                  <span><a href="#" className="transition-opacity duration-300 hover:opacity-50">Our Story</a></span>
-                  <span className="transition-opacity duration-300 hover:opacity-50"><a href="#">FAQs</a></span>
+                  <span className=" text-start md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50"><a href="#">Email Marketing</a></span>
+                  <span><a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50">Our Story</a></span>
+                  <span className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50"><a href="#">FAQs</a></span>
                   </li>
 
                   <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-20 lg:gap-20">
-                  <span className=" text-start transition-opacity duration-300 hover:opacity-50"><a href="#">Campaigns</a></span>
-                  <span><a href="#" className="transition-opacity duration-300 hover:opacity-50">Benefits</a></span>
-                  <span className="transition-opacity duration-300 hover:opacity-50"><a href="#">Benefits</a></span>
+                  <span className=" text-start md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50"><a href="#">Campaigns</a></span>
+                  <span><a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50">Campaigns</a></span>
+                  <span className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50"><a href="#">Benefits</a></span>
                   </li>
 
                   <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-20 lg:gap-20">
-                  <span className=" text-start transition-opacity duration-300 hover:opacity-50"><a href="#">Branding</a></span>
-                  <span><a href="#" className="transition-opacity duration-300 hover:opacity-50">Team</a></span>
+                  <span className=" text-start md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50"><a href="#">Branding</a></span>
+                  <span><a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50">Team</a></span>
                   <span className=""></span>
                   </li>
 
                   <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-20 lg:gap-20">
-                  <span className=" text-start transition-opacity duration-300 hover:opacity-50"><a href="#">Offline</a></span>
-                  <span><a href="#" className="transition-opacity duration-300 hover:opacity-50">Careers</a></span>
+                  <span className=" text-start md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50transition-opacity duration-300 hover:opacity-50"><a href="#">Offline</a></span>
+                  <span><a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50">Careers</a></span>
                   <span className=""></span>
                   </li>
                  </ul>
@@ -50,7 +50,7 @@ const Footersection = () => {
                   <li className="grid grid-rows-5 text-customBlue gap-5">
                   <span className=" text-start font-medium text-[18px]">Services</span>
                   <span>Email Marketing</span>
-                  <span>Compaigns</span>
+                  <span>Campaigns</span>
                   <span>Branding</span>
                   <span>Offline</span>
                   </li>
@@ -70,13 +70,13 @@ const Footersection = () => {
                   </li>
                  </ul>
               </div>
-              <div className="bg-customBlue text-white md:ml-10 lg:ml-10 pl-5 h-[38px] w-[390px] flex items-center md:w-full lg:w-full ">
-                <a href="#" className="transition-opacity duration-300 hover:opacity-50 md:text-[20px] lg:text-[20px] md:w-[200px] lg:w-[200px] w-[96px] text-[10px]">Terms and Conditions</a>
-                <span className="md:ml-24 lg:ml-24 ml-7 "><a href="#" className="transition-opacity duration-300 hover:opacity-50 md:text-[20px] lg:text-[20px] md:w-[200px] lg:w-[200px] w-[94px] text-[10px]">Privacy Policy</a></span>
+              <div className="bg-customBlue text-white md:ml-10 lg:ml-10 pl-5 h-[38px] w-full flex items-center md:w-full lg:w-full ">
+                <a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50 md:text-[20px] lg:text-[20px] md:w-[210px] lg:w-[230px] w-[100px] text-[10px]">Terms and Conditions</a>
+                <span className="md:ml-24 lg:ml-24 ml-7 "><a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50 md:text-[20px] lg:text-[20px] md:w-[200px] lg:w-[200px] w-[94px] text-[10px]">Privacy Policy</a></span>
 
-                 <a href="#" className="md:ml-auto lg:ml-auto ml-20 transition-opacity duration-300 hover:opacity-50"><img src="src\assets\icons\facebook.png" alt="" className="lg:w-[10px] lg-h[20px] md:w-[10px] md-h[20px] h-[14px] w-[7px]"/></a>
-                <a href="#" className="md:ml-10 lg:ml-10  ml-5 transition-opacity duration-300 hover:opacity-50"><img src="src\assets\icons\twitter.png" alt="" className="lg:w-[22px] lg-h[18px] md:w-[10px] md-h[20px] h-[12px] w-[16px]"/></a>
-                <a href="#" className="md:ml-10 lg:ml-10  ml-5 transition-opacity duration-300 hover:opacity-50"><img src="src\assets\icons\instagram.png" alt="" className="lg:w-[22px] lg:h[22px] md:w-[10px] md-h[20px] h-[15px] w-[15px]"/></a>
+                 <a href="#" className="md:ml-auto lg:ml-auto ml-28 md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50"><img src="src\assets\icons\facebook.png" alt="" className="lg:w-[10px] lg-h[20px] md:w-[10px] md-h[20px] h-[14px] w-[7px]"/></a>
+                <a href="#" className="md:ml-10 lg:ml-10  ml-5 md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50"><img src="src\assets\icons\twitter.png" alt="" className="lg:w-[22px] lg-h[18px] md:w-[10px] md-h[20px] h-[12px] w-[16px]"/></a>
+                <a href="#" className="md:ml-10 lg:ml-10  ml-5 md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300  md:hover:opacity-50 lg:hover:opacity-50"><img src="src\assets\icons\instagram.png" alt="" className="lg:w-[22px] lg:h[22px] md:w-[10px] md-h[20px] h-[15px] w-[15px]"/></a>
 
               </div>
 

@@ -3,7 +3,7 @@ const Faq = () => {
   return (
     <section className="h-100 bg-white text-customBlue ">
         <div className="lg:w-[994px] md:w-[994px] mx-auto bg-white py-6 w-[330px] ">
-      <h2 className="text-center mx-auto text-[33px] lg:w-[584px] md:w-[584px] w-[316px] lg:text-7xl md:text-7x1 font-bold mt-20 md:m-20 lg:m-20">
+      <h2 className="text-center mx-auto text-[33px] lg:w-[650px] md:w-[584px] w-[316px] lg:text-7xl md:text-7x1 font-semibold mt-20 md:m-20 lg:m-20">
                Frequently asked questions
             </h2>  
               

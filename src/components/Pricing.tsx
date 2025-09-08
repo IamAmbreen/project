@@ -11,7 +11,7 @@ const Pricing = () => {
             </h1>   
              <p className=' text-center md:text-[20px] lg:text-[20px] text-sm font-light mb-6'> Here are some of Our Most Popular Services</p>
          <div className="hidden md:flex lg:flex md:px-32 md:py-16 md:justify-center md:mb-4 ">
-             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold text-2xl rounded-md lg:rounded-full md:rounded-full px-16 py-4 text-center transition-colors duration-300 hover:bg-yellow-600 " onClick={handlePriceListClick}><span>View Full Price List</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
+             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold text-2xl rounded-md lg:rounded-full md:rounded-full px-16 py-4 text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600 " onClick={handlePriceListClick}><span>View Full Price List</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
             </div>
               <div className="flex flex-col md:flex-row md:w-[1182px] md:h-[486px] md:mx-auto lg:mx-auto lg:flex-row ">
                 <div className="md:w-[382px] mx-auto p-7 border-4 border-white-200 md:border border-white-200 lg:border border-white-200 text-white mb-5 md:mb-0 lg:mb-0">
@@ -143,7 +143,7 @@ const Pricing = () => {
             </div>
              <div className=" flex justify-center md:mb-4 ">
                <p className='hidden md:text-center md:text-[26px] md:font-light lg:text-center lg:text-[26px] lg:font-light md:text-white lg:text-white'> Free Collecting Laundry £20 Min Spend</p>
-             <button type="button" className=" md:hidden flex gap-2 text-customBlue bg-customYellow items-center font-semibold text-2xl rounded-md lg:rounded-full md:rounded-full px-10 py-4 text-center transition-colors duration-300 hover:bg-yellow-600 " onClick={handlePriceListClick}><span>View Full Price List</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
+             <button type="button" className=" md:hidden flex gap-2 text-customBlue bg-customYellow items-center font-semibold text-2xl rounded-md lg:rounded-full md:rounded-full px-10 py-4 text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600 " onClick={handlePriceListClick}><span>View Full Price List</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
             </div>
   
     </section>

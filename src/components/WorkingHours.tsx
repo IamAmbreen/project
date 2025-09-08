@@ -54,7 +54,7 @@ const WorkingHours = () => {
     </div>
      
       <div className=" flex md:px-32 lg:px-32 md:py-16 lg:py-16 justify-center ">
-             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold md:text-2xl lg:text-2xl text-[13px] md:rounded-full lg:rounded-full px-8 py-4 rounded-md text-center transition-colors duration-300 hover:bg-yellow-600 " onClick={handleOrderClick}><span>Order Now</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
+             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold md:text-2xl lg:text-2xl text-[13px] md:rounded-full lg:rounded-full px-8 py-4 rounded-md text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600 " onClick={handleOrderClick}><span>Order Now</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
             </div>
    
     </div>

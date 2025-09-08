@@ -22,7 +22,7 @@ const Services = () => {
             </div>
             <div className="md:w-[397px] lg:w-[397px] w-[306px] md:p-12 lg:p-12 p-8 md:border-r-0 lg:border-r-0 border border-white-200 text-white mb-10 md:mb-0 lg:mb-0">
               <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4"/>
-              <h2 className="uppercase text-[32px]lg:w-[300px] md:w-[300px] w-[240px] font-semibold"> weybridge <br/>cleaners</h2>
+              <h2 className="uppercase text-[32px] lg:w-[300px] md:w-[300px] w-[240px] font-semibold"> weybridge <br/>cleaners</h2>
             </div>
              <div className=" md:hidden lg:hidden md:w-[397px] lg:w-[397px] w-[306px] md:p-12 lg:p-12 p-8 border border-white-200 text-white mb-10 md:mb-0 lg:mb-0">
           <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4"/>
@@ -35,7 +35,7 @@ const Services = () => {
         </div>
         
                <div className=" flex md:px-32 lg:px-32 md:py-16 lg:py-16 justify-center md:mt-0 lg:mt-0 mt-20 ">
-             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold md:text-2xl lg:text-2xl text-[13px] md:rounded-full lg:rounded-full px-8 py-4 rounded-md text-center transition-colors duration-300 hover:bg-yellow-600 " onClick={handleOrderClick}><span>Order Now</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
+             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold md:text-2xl lg:text-2xl text-[13px] md:rounded-full lg:rounded-full px-8 py-4 rounded-md text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600" onClick={handleOrderClick}><span>Order Now</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
             </div>
     </section>
   )

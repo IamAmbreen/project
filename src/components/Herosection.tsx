@@ -17,7 +17,7 @@ const Herosection = () => {
   Collected and delivered to your door
  </p>
     <div className="mt-4 md:mt-14">
-      <button type="button" className="text-customBlue bg-customYellow items-center font-medium rounded-md text-xl px-8 py-4 text-center transition-colors duration-300 hover:bg-yellow-600 md:rounded-full " onClick={handleSchedulePickupClick}>Schedule Your Pickup</button>
+      <button type="button" className="text-customBlue bg-customYellow items-center font-medium rounded-md text-xl px-8 py-4 text-center md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600 md:rounded-full " onClick={handleSchedulePickupClick}>Schedule Your Pickup</button>
     </div>
   </div>
 

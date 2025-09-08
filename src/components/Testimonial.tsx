@@ -38,7 +38,7 @@ const Testimonial = () => {
                 ihateironing offers professional dry cleaning services in Battersea and the surrounding areas. Our dedicated team in Battersea ensures that your garments are treated with care and attention to detail, and returned to your doorstep in as little as 24 hours.            </p>
         </div>
         <div className=" flex md:px-32 lg:px-32 md:py-16 px-16 py-8 lg:py-16 justify-center ">
-             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold md:text-2xl lg:text-2xl text-[16px] md:rounded-full lg:rounded-full rounded-md px-10 py-4 md:px-16 lg:px-16 md:py-4 lg:py-4  text-center transition-colors duration-300 hover:bg-yellow-600 " onClick={handleOrderClick}><span>Order Now</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
+             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold md:text-2xl lg:text-2xl text-[16px] md:rounded-full lg:rounded-full rounded-md px-10 py-4 md:px-16 lg:px-16 md:py-4 lg:py-4  text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600 " onClick={handleOrderClick}><span>Order Now</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
             </div>
            
     </section>

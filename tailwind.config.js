@@ -9,7 +9,7 @@ export default {
                 customYellow: '#FFBE3E',
       },
       fontFamily:{
-        poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
         inter: ['Inter', ...defaultTheme.fontFamily.sans],
       }
     

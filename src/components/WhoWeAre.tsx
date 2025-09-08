@@ -33,7 +33,7 @@ We are committed to offering reliable, efficient, and professional service, ensu
 
   
 <div className=" flex md:px-32 lg:px-32 md:py-16 px-10 py-4 lg:py-16 justify-center ">
-             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold md:text-2xl lg:text-2xl text-[14px] md:rounded-full lg:rounded-full rounded-md px-8 py-4 md:px-16 lg:px-16 md:py-4 lg:py-4  text-center transition-colors duration-300 hover:bg-yellow-600 " onClick={handleBookNowClick}><span>Book Now</span></button>
+             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold md:text-2xl lg:text-2xl text-[14px] md:rounded-full lg:rounded-full rounded-md px-8 py-4 md:px-16 lg:px-16 md:py-4 lg:py-4  text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600 " onClick={handleBookNowClick}><span>Book Now</span></button>
             </div>
 
 

@@ -35,12 +35,12 @@ const WorkingProcess = () => {
       </div>
     </div>
 
-    <div className="w-full md:w-60 mb-8 md:mb-0">
-      <img src="src\assets\icons\Asset 3.png" alt="Collect" className="mx-auto w-20 h-20 md:w-28 md:h-28" />
+    <div className="w-full md:w-60 lg:w-62 mb-8 md:mb-0">
+      <img src="src\assets\icons\Asset 3.png" alt="Collect" className="mx-auto w-20 h-20 md:w-28 md:h-28 lg:w-28 lg:h-28" />
       <h2 className="font-semibold text-sm md:text-2xl tracking-tight mt-4">
         <a href="#">Collect</a>
       </h2>
-      <p className="tracking-tight mt-4 text-sm md:text-base px-4 md:px-6">
+      <p className="tracking-tight mt-4 text-sm md:text-base lg:text-base px-4 md:px-6">
         We will collect your bag, clean your garments in house and invoice you.
       </p>
     </div>
@@ -69,7 +69,7 @@ const WorkingProcess = () => {
   <div className="flex justify-center px-4 py-8 md:px-32 md:py-16">
     <button
       type="button"
-      className="flex gap-2 items-center text-customBlue bg-customYellow font-semibold text-base md:text-2xl rounded-md lg:rounded-full md:rounded-full px-8 md:px-16 py-3 md:py-4 text-center transition-colors duration-300 hover:bg-yellow-600"
+      className="flex gap-2 items-center text-customBlue bg-customYellow font-semibold text-base md:text-2xl rounded-md lg:rounded-full md:rounded-full px-8 md:px-16 py-3 md:py-4 text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600"
       onClick={handleOrderNowClick}>
       <span>Order Now</span>
       <img src="src\assets\icons\arrow-up-right.png" alt="" className="w-3 h-3 md:w-4 md:h-4" />
