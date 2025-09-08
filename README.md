@@ -1,6 +1,56 @@
-# React + TypeScript + Vite
+# Savilles
+A responsive and user-friendly laundary service webpage that showcases services, pricing, and booking options, making it easy for customers to schedule laundary pickups and deliveries online.
+# installation
+```bash
+# clone the repo
+*git clone
+https://github.com/user-name/project-name.git
+# navigate to project
+*cd project-name(e.g "project")
+#install dependencies
+npm install
+this will install all the necessary node modules that are important for the project.
+# After installation
+npm start or go through the package.json file to see the run command.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+ - Responsive design(mobile, medium and large screens)
+ - Service listing (Washing , dry cleaning , ironing)
+ - Pricing plans
+ - Google map integration
+
+#Tech stack
+**Frontend
+  -- React Typescript vite
+**Styling
+  --Tailwindcss3
+**Deployment
+  --Github
+# Project Structure
+Savilles/
+src/
+.../assets/
+    .../icons/
+    .../images/
+...components/
+   ../Navbar.tsx
+   ../HeroSection.tsx
+   ../WorkingProcess.tsx
+   ../Pricing.tsx
+   ../Location.tsx
+   ../WorkingHours.tsx
+   ../Testimonial.tsx
+   ../WhoWeAre.tsx
+   ../Faq.tsx
+   ../Services.tsx
+   ../FooterSection.tsx
+App.tsx/
+index.css/
+main.tsx/
+index.html/
+package.json/
+   
+# React + TypeScript + Vite
 
 Currently, two official plugins are available:
 
