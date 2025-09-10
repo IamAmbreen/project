@@ -81,10 +81,6 @@ const Footersection = () => {
 
                  </div>
               </div>
-
-               
-             
-      
     </section>
   )
 }
