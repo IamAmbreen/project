@@ -21,7 +21,7 @@ const Herosection = () => {
     </div>
   </div>
 
-  <div className="hidden  lg:h-[546px] md:h-[546px] lg:flex ml-auto">
+  <div className="hidden lg:h-[546px] md:h-[546px] lg:flex ml-auto">
     <img src="src\assets\images\image.png" alt="Laundry Service" className="  md:h-[546px] lg:h-[546px]"/>
   </div>
 </section>
