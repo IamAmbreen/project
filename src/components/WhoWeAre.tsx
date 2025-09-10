@@ -27,7 +27,7 @@ We are committed to offering reliable, efficient, and professional service, ensu
   </div>
 
   
-  <div className="md:w-[550px] lg:w-[550px] h-[22px] w-[39px] ml-auto">
+  <div className="md:w-[550px] lg:w-[550px] h-[22px] w-[39px] ml-auto md:mr-0 lg:mr-0 mr-7">
     <img src="src\assets\images\Google-Review-Logo 1.png" alt="" className="  block mt-4"/>
   </div>
 
