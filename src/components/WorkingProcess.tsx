@@ -69,7 +69,7 @@ const WorkingProcess = () => {
   <div className="flex justify-center px-4 py-8 md:px-32 md:py-16 lg:px-32 lg:py-16">
     <button
       type="button"
-      className="flex gap-2 items-center text-customBlue bg-customYellow font-semibold text-base lg:text-2xl md:text-2xl rounded-md lg:rounded-full md:rounded-full px-8 md:px-16 lg:px-16 py-3 md:py-4 text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600"
+      className="flex gap-2 items-center text-customBlue bg-customYellow font-semibold lg:text-[1rem] md:text-[1rem] text-xs rounded-md lg:rounded-full md:rounded-full px-8 md:px-16 lg:px-16 py-3 md:py-4 text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600"
       onClick={handleOrderNowClick}>
       <span>Order Now</span>
       <img src="src\assets\icons\arrow-up-right.png" alt="" className="w-3 h-3 md:w-4 md:h-4" />

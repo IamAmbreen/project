@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-customBlue text-customGray border-b-2 border-customGray px-4 lg:px-24 md:px-8 py-4 lg:h-[7.125rem] md:h-[6.125rem] items-center">
+    <nav className="w-full bg-customBlue text-customGray border-b-2 border-customGray px-4 lg:px-24 md:px-12 py-4 lg:h-[7.125rem] md:h-[6.125rem] items-center">
       <div className="flex justify-between text-xl lg:text-xl md:text-[1rem] ">
         <div className="flex item-center">
           <button
@@ -58,7 +58,7 @@ const Navbar = () => {
           </a>
           <button
             type="button"
-            className="text-customBlue bg-customYellow  font-medium rounded-md lg:text-[1rem] md:text-[1rem] text-xs md:px-[1.5rem] lg:px-[2rem] py-[0.5rem] px-[1rem]  lg:py-[1rem] text-center md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-6000 md:rounded-full"
+            className="text-customBlue bg-customYellow  font-medium rounded-md lg:text-[1rem] md:text-[1rem] text-xs md:px-[1.5rem] lg:px-[2rem] py-[0.5rem] px-[0.5rem] md:py-[1rem] lg:py-[1rem] text-center md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-6000 md:rounded-full"
             onClick={handleBookNowClick}>
             Book Now
           </button>

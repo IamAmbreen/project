@@ -42,16 +42,16 @@ const Faq = () => {
 
   return (
     <section className="h-100 bg-white text-customBlue">
-      <div className="lg:w-[62.125rem] md:w-[994px] mx-auto bg-white py-6 w-[330px]">
-        <h2 className="text-center mx-auto text-[33px] lg:w-[650px] md:w-[584px] w-[316px] lg:text-7xl md:text-7x1 font-semibold mt-20 md:m-20 lg:m-20">
+      <div className="lg:w-[62.125rem] md:w-[52.125rem] mx-auto bg-white py-6 w-[15.62rem]">
+        <h2 className="text-center mx-auto text-[1.5rem] lg:w-[40.625rem] md:w-[30.425rem] w-[15.75rem] lg:text-[3.75rem] md:text-[3rem] font-semibold mb-12 mt-10 ">
           Frequently asked questions
         </h2>
-        <div className="m-10 text-center lg:text-[20px] md:text-[20px] md:w-[994px] lg:w-[994px] w-[310px]">
-          <ul className="lg:space-y-6 md:space-y-6 space-y-4">
+        <div className=" mx-auto text-center lg:text-[1.32rem] md:text-[1.32rem] md:w-[44.255rem] lg:w-[62.13rem] w-[15.60rem]">
+          <ul className="lg:space-y-4 md:space-y-4 space-y-1">
             {faqData.map((faq: FaqItem, index: number) => (
               <li key={index} className=" py-4">
                 <div className="flex justify-between items-center cursor-pointer">
-                  <span className={`text-start font-bold transition-colors duration-300 ${openIndex === index ? 'text-black' : 'text-customGray'}`}>
+                  <span className={`text-start lg:text-[1.3rem] md:text-[1rem] text-[0.7rem] font-bold ${openIndex === index ? 'text-black' : 'text-customGray'}`}>
                     {faq.question}
                   </span>
                   <a onClick={() => toggleAnswer(index)}>
@@ -65,7 +65,7 @@ const Faq = () => {
            
                 {openIndex === index && (
                   <div className="mt-4 text-start text-black">
-                    <span className="lg:text-[18px] md:text-[18px] text-[13px]">{faq.answer}</span>
+                    <span className="lg:text-[1.1rem] md:text-[1rem] text-[0.7rem]">{faq.answer}</span>
                   </div>
                 )}
               </li>

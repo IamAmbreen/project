@@ -6,9 +6,9 @@ const Herosection = () => {
   };
 
   return (
-   <section className="lg:h-[32.25rem] md:h-[25.125rem] flex flex-col lg:flex-row md:flex-row items-center bg-customBlue text-white">
-  <div className="lg:mt-9 lg:ml-12 flex flex-col py-6 items-center md:items-start lg:items-start text-center md:text-left px-8  md:w-[25.5rem] lg:w-[43rem] w-[24.12rem]">
-    <p className="mb-3 md:mb-none uppercase md:mt-10 lg:mt-10 lg:w-[42.5rem] md:w-[34.5rem] w-[23.75rem] text-3xl lg:text-6xl md:text-5xl font-bold tracking-wider leading-tight">
+   <section className="lg:h-[32.25rem] md:h-[22.125rem] flex flex-col lg:flex-row md:flex-row items-center bg-customBlue text-white">
+  <div className="lg:mt-9 lg:ml-12 flex flex-col py-6 items-center md:items-start lg:items-start text-center md:text-left px-8 md:ml-6 md:w-[25.5rem] lg:w-[43rem] w-[24.12rem]">
+    <p className="mb-3 md:mb-none uppercase md:mt-8 lg:mt-4 lg:w-[42.5rem] md:w-[28rem] w-[23.75rem] text-3xl lg:text-6xl md:text-4xl font-bold tracking-wider leading-tight">
      Cobhem's dry
      cleaning & 
      laundary service
@@ -21,7 +21,7 @@ const Herosection = () => {
     </div>
   </div>
 
-  <div className="hidden lg:h-[32.25rem] lg:w-[44rem] md:h-[25.125rem] md:w-[30.125rem] lg:flex md:flex ml-auto">
+  <div className="hidden lg:h-[32.25rem] lg:w-[44rem] md:h-[22.125rem] md:w-[30.125rem] lg:flex md:flex ml-auto">
     <img src="src\assets\images\image.png" alt="Laundry Service" className="  md:h-full lg:h-full"/>
   </div>
 </section>
