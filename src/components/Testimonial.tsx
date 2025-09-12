@@ -12,6 +12,7 @@ const sections: SectionData[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat, turpis ac feugiat tincidunt, ante orci sagittis erat, vitae dictum diam mi id velit. Nam condimentum, orci vitae feugiat imperdiet, massa tellus laoreet augue, id mattis velit lacus congue leo.",
     alignment: 'justify-end',
     titleCenter: false,
+    
   },
   {
     title: 'Your Title',
@@ -33,14 +34,14 @@ const DynamicSection = () => {
   };
 
   return (
-    <section className="h-100 text-customBlue bg-white pt-20">
+    <section className="h-100 text-customBlue bg-white lg:pt-22">
       {sections.map((section, index) => (
-        <div key={index} className={`flex ${section.alignment} py-9 ${index === sections.length - 1 ? 'mb-28' : ''}`}>
-          <div className="bg-customBlue md:h-[21.88rem] lg:h-[23.5rem] md:w-[30.93rem] lg:w-[59.06rem] md:px-16 lg:px-16 lg:py-10 md:py-10 h-[12.5rem] w-[17.625rem] px-8 py-8 text-white text-start">
-            <h1 className={`md:text-5xl lg:text-6xl text-2xl font-semibold ${section.titleCenter ? 'text-center' : ''}`}>
+        <div key={index} className={`flex ${section.alignment} lg:py-9 ${index === sections.length - 1 ? 'mb-[5.875rem] ' : ''}`}>
+          <div className="bg-customBlue md:w-[30.93rem] lg:w-[63.375rem]  text-white text-start">
+            <h1 className={`md:text-5xl lg:text-6xl text-2xl lg:pt-12 lg:pl-16 font-semibold ${section.titleCenter ? 'text-center' : ''}`}>
               {section.title}
             </h1>
-            <p className="md:mt-10 lg:mt-10 md:text-[1rem] lg:text-[1.3rem] font-light md:max-w-[30.93rem] lg:max-w-[34.38rem] text-[0.59rem] ">
+            <p className="md:mt-10 lg:mt-5 md:text-[1rem] lg:text-[1.3rem] font-light lg:pl-16 lg:pr-72 text-[0.59rem] lg:mb-11 ">
               {section.description}
             </p>
           </div>

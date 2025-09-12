@@ -1,11 +1,8 @@
 
 import { useState } from 'react';
 
-
 import minusIcon from '../assets/icons/minus.png';
 import plusIcon from '../assets/icons/plus.png';
-
-
 
 interface FaqItem {
   question: string;
@@ -32,9 +29,7 @@ const faqData: FaqItem[] = [
 ];
 
 const Faq = () => {
-
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
-
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleAnswer = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -48,24 +43,33 @@ const Faq = () => {
         </h2>
         <div className=" mx-auto text-center lg:text-[1.32rem] md:text-[1.32rem] md:w-[44.255rem] lg:w-[62.13rem] w-[15.60rem]">
           <ul className="lg:space-y-4 md:space-y-4 space-y-1">
-            {faqData.map((faq: FaqItem, index: number) => (
-              <li key={index} className=" py-4">
-                <div className="flex justify-between items-center cursor-pointer">
-                  <span className={`text-start lg:text-[1.3rem] md:text-[1rem] text-[0.7rem] font-bold ${openIndex === index ? 'text-black' : 'text-customGray'}`}>
+            {faqData.map((faq, index) => (
+              <li key={index} className="py-4">
+                <div
+                  className="flex justify-between items-center cursor-pointer"
+                  onClick={() => toggleAnswer(index)}
+                >
+                  <span
+                    className={`uppercase text-start lg:text-[1.3rem] md:text-[1rem] text-[0.7rem] font-bold ${
+                      openIndex === index ? 'text-black' : 'text-customGray'
+                    }`}
+                  >
                     {faq.question}
                   </span>
-                  <a onClick={() => toggleAnswer(index)}>
-                    <img
-                      src={openIndex === index ? minusIcon : plusIcon}
-                      alt={openIndex === index ? "minus icon" : "plus icon"}
-                      className="w-6 h-6 ml-auto transition-transform duration-300"
-                    />
-                  </a>
+                  <img
+                    src={openIndex === index ? minusIcon : plusIcon}
+                    alt={openIndex === index ? 'minus icon' : 'plus icon'}
+                    className={`w-6 h-6 ml-auto transition-transform duration-300 ${
+                      openIndex === index ? 'rotate-180' : ''
+                    }`}
+                  />
                 </div>
-           
+
                 {openIndex === index && (
                   <div className="mt-4 text-start text-black">
-                    <span className="lg:text-[1.1rem] md:text-[1rem] text-[0.7rem]">{faq.answer}</span>
+                    <span className="lg:text-[1.1rem] md:text-[1rem] text-[0.7rem]">
+                      {faq.answer}
+                    </span>
                   </div>
                 )}
               </li>

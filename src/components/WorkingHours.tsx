@@ -5,8 +5,8 @@ const WorkingHours = () => {
     console.log()
   }
   return (
-   <section className="h-100 bg-customBlue text-white md:px-16 lg:px-16 px-8 py-20">
-    <div className="md:w-full md:max-w-6xl lg:w-full lg:max-w-7xl w-[17.812rem] mx-auto">
+   <section className="h-100 bg-customBlue text-white ">
+    <div className="lg:px-31 lg:pt-42">
  <div>
         <ul className="m:space-y-4 lg:space-y-4 space-y-2 md:w-full lg:w-full md:max-w-6xl lg:max-w-7xl mx-auto w-full  md:mt-10 lg:mt-10 md:text-[1rem]  lg:text-[1.5rem] text-[0.6rem]">
     <li className="grid grid-cols-3 items-center font-medium text-white">
@@ -37,7 +37,7 @@ const WorkingHours = () => {
   </ul>
   
    <div className=" md:w-full lg:w-full md:max-w-6xl lg:max-w-7xl h-[1px] bg-white mb-2 md:mt-16 lg:mt-16 mt-10 mx-auto"></div>
-   <div className="flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-between mb-12">
+   <div className="flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-between ">
      <p className="text-start  md:text-[1rem] lg:text-[1.5rem] text-[0.6rem] font-medium">Collection and delivery </p>
      <div className="space-y-2 md:space-y-4 lg:space-y-4 md:mt-12 lg:mt-12 text-[0.6rem]  md:text-[1rem]  lg:text-[1.5rem] mt-6">
         <p>
@@ -53,8 +53,8 @@ const WorkingHours = () => {
    </div>
     </div>
      
-      <div className=" flex md:px-32 lg:px-32 md:py-16 lg:py-16 justify-center ">
-             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold lg:text-[1rem] md:text-[1rem] text-xs md:rounded-full lg:rounded-full px-8 py-4 rounded-md text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600 " onClick={handleOrderClick}><span>Order Now</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
+      <div className=" flex lg:py-30 justify-center ">
+             <button type="button" className=" flex gap-2 text-customBlue bg-customYellow items-center font-semibold lg:text-[1rem] md:text-[1rem] text-xs md:rounded-full lg:rounded-full  lg:px-16 lg:py-6 rounded-md text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600 " onClick={handleOrderClick}><span>Order Now</span><img src="src\assets\icons\arrow-up-right.png" alt="" className="w-4 h-4" /></button>
             </div>
    
     </div>
