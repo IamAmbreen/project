@@ -36,12 +36,12 @@ const Faq = () => {
   };
 
   return (
-    <section className="h-100 bg-white text-customBlue">
-      <div className="lg:w-[62.125rem] md:w-[52.125rem] mx-auto bg-white py-6 w-[15.62rem]">
-        <h2 className="text-center mx-auto text-[1.5rem] lg:w-[40.625rem] md:w-[30.425rem] w-[15.75rem] lg:text-[3.75rem] md:text-[3rem] font-semibold mb-12 mt-10 ">
+    <section className="h-100 bg-white text-customBlue lg:pt-20">
+      <div className=" bg-white">
+        <h2 className="text-center lg:px-80 lg:text-7xl lg:leading-normal font-semibold lg:mb-18 ">
           Frequently asked questions
         </h2>
-        <div className=" mx-auto text-center lg:text-[1.32rem] md:text-[1.32rem] md:w-[44.255rem] lg:w-[62.13rem] w-[15.60rem]">
+        <div className=" lg:w-full lg:px-56 lg:mb-30 text-center lg:text-[1.32rem] md:text-[1.32rem] ">
           <ul className="lg:space-y-4 md:space-y-4 space-y-1">
             {faqData.map((faq, index) => (
               <li key={index} className="py-4">
@@ -50,7 +50,7 @@ const Faq = () => {
                   onClick={() => toggleAnswer(index)}
                 >
                   <span
-                    className={`uppercase text-start lg:text-[1.3rem] md:text-[1rem] text-[0.7rem] font-bold ${
+                    className={`uppercase text-start lg:text-[1.15rem] md:text-[1rem] text-[0.7rem] font-bold ${
                       openIndex === index ? 'text-black' : 'text-customGray'
                     }`}
                   >
@@ -67,7 +67,7 @@ const Faq = () => {
 
                 {openIndex === index && (
                   <div className="mt-4 text-start text-black">
-                    <span className="lg:text-[1.1rem] md:text-[1rem] text-[0.7rem]">
+                    <span className="lg:text-[1rem] md:text-[1rem] text-[0.7rem]">
                       {faq.answer}
                     </span>
                   </div>

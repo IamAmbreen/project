@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-customBlue text-customGray border-b-2 border-customGray px-4 lg:px-22 md:px-12  py-4 lg:h-[7.125rem] md:h-[6.125rem] items-center">
-      <div className="flex justify-between text-xl lg:text-xl lg:pl-20 md:text-[1rem] ">
+      <div className="flex justify-between text-xl lg:text-xl lg:ml-10 md:text-[1rem] ">
         <div className="flex item-center">
           <button
             id="hamburger-button"
@@ -58,7 +58,7 @@ const Navbar = () => {
           </a>
           <button
             type="button"
-            className="text-customBlue bg-customYellow  font-medium rounded-md lg:text-[1rem] md:text-[1rem] text-xs md:px-[1.5rem] py-[0.5rem] px-[0.5rem] md:py-[1rem] lg:px-8 lg:py-5 text-center md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-6000 md:rounded-full"
+            className="text-customBlue bg-customYellow  font-bold rounded-md lg:text-[1rem] md:text-[1rem] text-xs md:px-[1.5rem] py-[0.5rem] px-[0.5rem] md:py-[1rem] lg:px-9 lg:font-inter lg:py-5 text-center md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-6000 md:rounded-full"
             onClick={handleBookNowClick}>
             Book Now
           </button>

@@ -7,7 +7,6 @@ import Pricing from "./components/Pricing.tsx"
 import Location from "./components/Location"
 import WorkingHours from "./components/WorkingHours"
 import Testimonial from "./components/Testimonial"
-import Footersection from "./components/Footersection.tsx"
 import Services from "./components/Services"
 import WhoWeAre from "./components/WhoWeAre"
 function App() {
@@ -24,7 +23,6 @@ function App() {
        <WhoWeAre/>
        <Faq/>
        <Services/>
-       <Footersection/>
     
     </div>
   )

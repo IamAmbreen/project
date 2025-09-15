@@ -22,7 +22,7 @@ const WorkingProcess = () => {
       <h2 className="font-semibold text-sm lg:text-2xl md:text-2xl tracking-tight mt-4">
         <a href="#">Book</a>
       </h2>
-      <p className="tracking-tight mt-4 text-sm lg:text-base px-4 lg:px-0 md:text-base md:px-0">
+      <p className="tracking-tight mt-4 text-sm lg:text-base px-4 lg:px-7 md:text-base md:px-0">
         Choose a convenient date, time and location for pickup.
       </p>
     </div>
@@ -40,7 +40,7 @@ const WorkingProcess = () => {
       <h2 className="font-semibold text-sm md:text-2xl lg:text-2xl tracking-tight mt-4">
         <a href="#">Collect</a>
       </h2>
-      <p className="tracking-tight mt-4 text-sm lg:text-base px-4 lg:px-0 md:text-base md:px-0">
+      <p className="tracking-tight mt-4 text-sm lg:text-base px-4 lg:px-9 md:text-base md:px-0">
         We will collect your bag, clean your garments in house and invoice you.
       </p>
     </div>
@@ -59,8 +59,8 @@ const WorkingProcess = () => {
       <h2 className="font-semibold text-sm lg:text-2xl md:text-2xl tracking-tight mt-4">
         <a href="#">Deliver</a>
       </h2>
-      <p className="tracking-tight mt-4 text-sm lg:text-base px-4 lg:px-0 md:text-base md:px-0">
-        We will deliver your fresh garments back to your chosen location.
+      <p className="tracking-tight mt-4 text-sm lg:text-base px-4 lg:px-8 md:text-base md:px-0">
+        Your cleaning will be delivered back on the scheduled date & time.
       </p>
     </div>
   </div>
@@ -69,10 +69,10 @@ const WorkingProcess = () => {
   <div className="flex justify-center px-4 py-8 md:px-32 md:py-16 lg:px-32 lg:py-18.5 lg:mt-12.5">
     <button
       type="button"
-      className="flex gap-2 items-center text-customBlue bg-customYellow font-semibold lg:text-[1rem] md:text-[1rem] text-xs rounded-md lg:rounded-full md:rounded-full px-8 md:px-16 lg:px-12 lg:py-5 py-3 md:py-4 text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600"
+      className="flex gap-2 items-center text-customBlue bg-customYellow  lg:text-[1.75rem] md:text-[1rem] text-xs rounded-md lg:rounded-full md:rounded-full px-8 md:px-16 lg:px-22 lg:py-9 font-inter font-bold py-3 md:py-4 text-center  md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-600"
       onClick={handleOrderNowClick}>
       <span>Order Now</span>
-      <img src="src\assets\icons\arrow-up-right.png" alt="" className="w-3 h-3 md:w-4 md:h-4" />
+      <img src="src\assets\icons\arrow-up-right.png" alt="" className="w-3 h-3 md:w-4 md:h-4 lg:w-5 lg:h-5" />
     </button>
   </div>
 </section>
