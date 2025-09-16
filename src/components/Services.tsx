@@ -52,30 +52,30 @@ const Services = () => {
     </div>
     <div className="hidden md:block lg:block lg:w-2/5">
       <img src="src\assets\images\Logo small.png" alt="" className="md:w-[7.75rem] lg:w-[8.75rem] md:h-[3rem] lg:h-[4rem]"/>
-      <p className="md:text-[1rem] lg:text-[1rem] font-normal lg:pr-19 lg:leading-5">Indulge in refined dry cleaning services with Savilles Dry Cleaning & Laundry. With over six decades of expertise, we cater to discerning clients in Cobham, Oxshott, Esher, Weybridge, and the surrounding areas.</p>
+      <p className="md:text-[1rem] lg:text-[1rem] font-normal lg:pr-17 lg:leading-5">Indulge in refined dry cleaning services with Savilles Dry Cleaning & Laundry. With over six decades of expertise, we cater to discerning clients in Cobham, Oxshott, Esher, Weybridge, and the surrounding areas.</p>
     </div>
-    <ul className="hidden md:block lg:block space-y-3 lg:w-3/5 md:text-[0.8rem] lg:text-[1rem]  lg:pl-6  md:mt-12 lg:mt-2 ">
-      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-medium md:text-white lg:text-white text-customBlue md:gap-5 lg:gap-40">
+    <ul className="hidden md:block lg:block space-y-3 lg:w-3/5 md:text-[0.8rem] lg:text-[1rem]  lg:pl-14  md:mt-12 lg:mt-2 ">
+      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-medium md:text-white lg:text-white text-customBlue md:gap-5 lg:gap-28">
         <span className="text-start">Services</span>
         <span>About</span>
         <span className="">Help</span>
       </li>
-      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-5 lg:gap-40">
+      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-5 lg:gap-28">
         <span className="text-start md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50"><a href="#">Email Marketing</a></span>
         <span><a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50">Our Stories</a></span>
         <span className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50"><a href="#">FAQs</a></span>
       </li>
-      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-5 lg:gap-40">
+      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-5 lg:gap-28">
         <span className="text-start md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50"><a href="#">Campaigns</a></span>
         <span><a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50">Benefits</a></span>
         <span className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50"><a href="#">Contact Us</a></span>
       </li>
-      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-5 lg:gap-40">
+      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-5 lg:gap-28">
         <span className="text-start md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50"><a href="#">Branding</a></span>
         <span><a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50">Team</a></span>
         <span className=""></span>
       </li>
-      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-5 lg:gap-40">
+      <li className="md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 items-center font-extralight text-white md:gap-5 lg:gap-28">
         <span className="text-start md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50 "><a href="#">Offline</a></span>
         <span><a href="#" className="md:transition-opacity lg:transition-opacity md:lg:duration-300 lg:duration-300 md:hover:opacity-50 lg:hover:opacity-50">Careers</a></span>
         <span className=""></span>
