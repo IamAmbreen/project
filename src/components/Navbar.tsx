@@ -58,7 +58,7 @@ const Navbar = () => {
           </a>
           <button
             type="button"
-            className="uppercase lg:normal-case text-customBlue bg-customYellow  font-medium lg:font-bold rounded-md lg:rounded-full lg:text-[1rem]  text-[0.813rem]  py-1 px-5  lg:px-11 lg:font-inter lg:py-4 text-center  lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-6000 "
+            className="uppercase lg:normal-case text-customBlue bg-customYellow  font-medium lg:font-bold rounded-md lg:rounded-full lg:text-[1rem]  text-[0.813rem]  py-1 px-5.5  lg:px-11 lg:font-inter lg:py-4 text-center  lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-6000 "
             onClick={handleBookNowClick}>
             Book Now
           </button>

@@ -56,7 +56,7 @@ const WorkingHours = () => {
       <div className=" flex lg:py-30 justify-center lg:mt-0 lg:mb-0 mt-20 ">
              <button
           type="button"
-          className="flex gap-2 items-center text-customBlue bg-customYellow lg:text-[1.75rem]  text-[0.875rem] rounded-md lg:rounded-full px-8  lg:px-22 lg:py-7 lg:font-inter lg:font-bold font-medium py-3 text-center  lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-600"
+          className="flex gap-2 items-center text-customBlue bg-customYellow lg:text-[1.75rem]  text-[0.875rem] rounded-md lg:rounded-full px-8.5  lg:px-21 lg:py-5.5 lg:font-inter lg:font-bold font-medium py-2.5 text-center  lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-600"
           onClick={handleOrderClick}>
           <span className="lg:normal-case uppercase ">Order Now</span>
           <img src="src/assets/icons/arrow-up-right.png" alt="" className="hidden lg:block w-3 h-3 lg:w-5 lg:h-5" />

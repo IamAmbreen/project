@@ -61,7 +61,7 @@ const Pricing = () => {
       <div className="hidden  lg:flex lg:justify-center lg:mb-20">
         <button
           type="button"
-          className="flex gap-2 text-customBlue bg-customYellow items-center font-bold lg:text-[1.5062rem]  lg:rounded-full  lg:px-16 lg:py-7  text-center transition-colors duration-300 hover:bg-yellow-600"
+          className="flex gap-2 text-customBlue bg-customYellow items-center font-bold lg:text-[1.5062rem]  lg:rounded-full  lg:px-18.5 lg:py-5.5  text-center transition-colors duration-300 hover:bg-yellow-600"
           onClick={handlePriceListClick}
         >
           <span>View Full Price List</span>
@@ -100,10 +100,10 @@ const Pricing = () => {
         <p className='hidden  lg:block lg:py-8 lg:text-center lg:text-[26px] lg:font-light lg:text-white'> Free Collecting Laundry £20 Min Spend</p>
         <button
           type="button"
-          className=" lg:hidden uppercase flex gap-2 text-customBlue bg-customYellow items-center rounded-md font-medium leading-6 text-[0.875rem] px-10 py-4 text-center"
+          className=" lg:hidden uppercase flex gap-2 text-customBlue bg-customYellow items-center rounded-md font-medium leading-6 text-[0.875rem] px-9 py-3 text-center"
           onClick={handlePriceListClick}>
           <span>View Full Price List</span>
-          <img src="src/assets/icons/arrow-up-right.png" alt="" className="w-4 h-4" />
+          <img src="src/assets/icons/arrow-up-right.png" alt="" className="hidden w-4 h-4" />
         </button>
       </div>
     </section>

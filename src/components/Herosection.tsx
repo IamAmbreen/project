@@ -18,7 +18,7 @@ const Herosection = () => {
           Collected and delivered to your door
         </p>
         <div className="">
-          <button type="button" className="lg:normal-case uppercase text-customBlue bg-customYellow items-center  rounded-md lg:text-[1rem]  text-xl px-6 py-5 lg:py-4  lg:px-7 font-inter lg:font-bold font-medium text-center  lg:transition-colors  lg:duration-300   lg:rounded-full" onClick={handleSchedulePickupClick}>Schedule Your Pickup</button>
+          <button type="button" className="lg:normal-case uppercase text-customBlue bg-customYellow items-center  rounded-md lg:text-[1rem]  text-xl px-6.5 py-4.5 lg:py-4  lg:px-7 font-inter lg:font-bold font-medium text-center  lg:transition-colors  lg:duration-300   lg:rounded-full" onClick={handleSchedulePickupClick}>Schedule Your Pickup</button>
         </div>
       </div>
 

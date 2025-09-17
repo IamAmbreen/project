@@ -69,7 +69,7 @@ const WorkingProcess = () => {
       <div className="flex justify-center  lg:px-32 lg:py-18.5 lg:mt-12.5 mt-11 mb-11">
         <button
           type="button"
-          className="flex gap-2 items-center text-customBlue bg-customYellow lg:text-[1.75rem]  text-[0.875rem] rounded-md lg:rounded-full  px-8  lg:px-22 lg:py-7 lg:font-inter lg:font-bold font-medium py-3  text-center  lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-600"
+          className="flex gap-2 items-center text-customBlue bg-customYellow lg:text-[1.75rem]  text-[0.875rem] rounded-md lg:rounded-full  px-8.5 lg:px-20 lg:py-5 lg:font-inter lg:font-bold font-medium py-2.5  text-center  lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-600"
           onClick={handleOrderNowClick}>
           <span className="hidden lg:block  ">Order Now</span>
           <span className="uppercase lg:hidden ">Book Now</span>
