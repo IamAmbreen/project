@@ -38,11 +38,11 @@ const Faq = () => {
   return (
     <section className="h-100 bg-white text-customBlue lg:pt-20">
       <div className=" bg-white">
-        <h2 className="text-center lg:px-80 lg:text-7xl lg:leading-normal font-semibold lg:mb-18 ">
+        <h2 className="text-center px-9 mt-15 lg:mt-0 lg:px-80 lg:text-7xl text-[2.0625rem] leading-10 lg:leading-normal font-bold lg:font-semibold mb-20 lg:mb-18 ">
           Frequently asked questions
         </h2>
-        <div className=" lg:w-full lg:px-56 lg:mb-30 text-center lg:text-[1.32rem] md:text-[1.32rem] ">
-          <ul className="lg:space-y-4 md:space-y-4 space-y-1">
+        <div className=" lg:w-full lg:px-56 w-full px-11 lg:mb-30 mb-19 text-center lg:text-[1.32rem]  ">
+          <ul className="lg:space-y-4 space-y-1">
             {faqData.map((faq, index) => (
               <li key={index} className="py-4">
                 <div
@@ -50,7 +50,7 @@ const Faq = () => {
                   onClick={() => toggleAnswer(index)}
                 >
                   <span
-                    className={`uppercase text-start lg:text-[1.15rem] md:text-[1rem] text-[0.7rem] font-bold ${
+                    className={`uppercase text-start lg:text-[1.15rem]  text-[0.91875rem]  font-bold ${
                       openIndex === index ? 'text-black' : 'text-customGray'
                     }`}
                   >
@@ -67,7 +67,7 @@ const Faq = () => {
 
                 {openIndex === index && (
                   <div className="mt-4 text-start text-black">
-                    <span className="lg:text-[1rem] md:text-[1rem] text-[0.7rem]">
+                    <span className="lg:text-[1rem]  font-medium font-inter leading-6 text-[0.85rem]">
                       {faq.answer}
                     </span>
                   </div>

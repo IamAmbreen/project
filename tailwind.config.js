@@ -4,6 +4,9 @@ export default {
   content: [ "/.index.html" , "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      textDecorationColor: {
+        'light-underline': '#061d49',
+      },
       lineHeight:{
         'extra' : '5.625rem',
         'medium' : '4.5rem',
@@ -102,7 +105,6 @@ export default {
       },
       screens: {
             'lg' : '1440px',
-            'md' : '1024px',
 
       },
       colors: {
@@ -113,6 +115,8 @@ export default {
                 customBlack: '#000000',
       },
       fontFamily:{
+      
+        jakarta : ['Plus Jakarta Sans', 'sans-serif'],
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
         inter: ['Inter', ...defaultTheme.fontFamily.sans],
       }

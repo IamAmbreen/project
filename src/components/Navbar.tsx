@@ -26,20 +26,20 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-customBlue text-customGray border-b-2 border-customGray lg:px-22 md:px-12 px-4  py-4 lg:h-[7.125rem] md:h-[6.125rem] items-center">
-      <div className="flex justify-between text-xl lg:text-xl lg:ml-10 md:text-[1rem] ">
+    <nav className="w-full bg-customBlue text-customGray border-b-2 border-customGray lg:px-22  px-4  py-4 lg:h-[7.125rem]  items-center">
+      <div className="flex justify-between text-xl lg:text-xl lg:ml-10  ">
         <div className="flex item-center">
           <button
             id="hamburger-button"
-            className="md:hidden lg:hidden mr-[0.844rem]"
+            className=" lg:hidden mr-[0.844rem]"
             onClick={() => setIsOpen(!isOpen)}>
             <img src="src/assets/icons/hamburger.png" alt="menu" />
           </button>
           <img
             src="src/assets/images/Logo.png"
             alt="logo"
-            className="item-center h-[3.125rem] w-auto md:h-[4.25rem] lg:h-[5.625rem] lg:w-[13.375rem] md:w-[10.6rem]"/>
-          <ul className="hidden md:flex items-center gap-[2rem] font-normal lg:text-[1rem] font-inter ml-[2rem]">
+            className="item-center h-[3.125rem] w-auto  lg:h-[5.625rem] lg:w-[13.375rem] "/>
+          <ul className="hidden gap-[2rem] font-normal lg:text-[1rem] font-inter ml-[2rem]">
             {navItems.map((item) => (
               <li
                 key={item.name}
@@ -53,12 +53,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center justify-center ">
-          <a href="#" className="md:hidden lg:hidden text-white text-[0.69rem] mr-[0.625rem]">
+          <a href="#" className=" lg:hidden text-white text-[0.69rem] mr-[0.625rem]">
             Login
           </a>
           <button
             type="button"
-            className="uppercase lg:normal-case text-customBlue bg-customYellow  font-medium lg:font-bold rounded-md lg:text-[1rem] md:text-[1rem] text-[0.813rem] md:px-[1.5rem] py-1 px-5 md:py-[1rem] lg:px-11 lg:font-inter lg:py-4 text-center md:transition-colors lg:transition-colors md:duration-300 lg:duration-300 md:hover:bg-yellow-600 lg:hover:bg-yellow-6000 md:rounded-full"
+            className="uppercase lg:normal-case text-customBlue bg-customYellow  font-medium lg:font-bold rounded-md lg:rounded-full lg:text-[1rem]  text-[0.813rem]  py-1 px-5  lg:px-11 lg:font-inter lg:py-4 text-center  lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-6000 "
             onClick={handleBookNowClick}>
             Book Now
           </button>
