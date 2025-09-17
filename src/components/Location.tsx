@@ -43,7 +43,7 @@ const Location = () => {
             </h1>      
           <iframe
     src="https://www.google.com/maps?q=London&output=embed"
-    className="lg:px-30 px-10 items-center  lg:w-full w-full border-0 shadow-none h-[10rem] "></iframe>
+    className="lg:px-30 px-10 items-center  lg:w-full w-full border-0 shadow-none lg:h-[28.3125rem] h-[10rem] "></iframe>
      
     </div>
 

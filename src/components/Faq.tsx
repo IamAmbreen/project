@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 import minusIcon from '../assets/icons/minus.png';
@@ -37,11 +36,11 @@ const Faq = () => {
 
   return (
     <section className="h-100 bg-white text-customBlue lg:pt-20">
-      <div className=" bg-white">
+      <div className="bg-white">
         <h2 className="text-center px-9 mt-15 lg:mt-0 lg:px-80 lg:text-7xl text-[2.0625rem] leading-10 lg:leading-normal font-bold lg:font-semibold mb-20 lg:mb-18 ">
           Frequently asked questions
         </h2>
-        <div className=" lg:w-full lg:px-56 w-full px-11 lg:mb-30 mb-19 text-center lg:text-[1.32rem]  ">
+        <div className="lg:w-full lg:px-56 w-full px-11 lg:mb-30 mb-19 text-center lg:text-[1.32rem]">
           <ul className="lg:space-y-4 space-y-1">
             {faqData.map((faq, index) => (
               <li key={index} className="py-4">
@@ -50,7 +49,7 @@ const Faq = () => {
                   onClick={() => toggleAnswer(index)}
                 >
                   <span
-                    className={`uppercase text-start lg:text-[1.15rem]  text-[0.91875rem]  font-bold ${
+                    className={`uppercase text-start lg:text-[1.15rem] text-[0.91875rem] font-bold ${
                       openIndex === index ? 'text-black' : 'text-customGray'
                     }`}
                   >
@@ -59,19 +58,23 @@ const Faq = () => {
                   <img
                     src={openIndex === index ? minusIcon : plusIcon}
                     alt={openIndex === index ? 'minus icon' : 'plus icon'}
-                    className={`w-6 h-6 ml-auto transition-transform duration-300 ${
+                    className={`w-6 h-6 ml-auto transition-transform duration-1000 ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                   />
                 </div>
 
-                {openIndex === index && (
-                  <div className="mt-4 text-start text-black">
-                    <span className="lg:text-[1rem]  font-medium font-inter leading-6 text-[0.85rem]">
-                      {faq.answer}
-                    </span>
-                  </div>
-                )}
+            
+                <div 
+                  className={`
+                    mt-4 text-start text-black transition-all ease-in-out overflow-hidden duration-700
+                    ${openIndex === index ? 'max-h-40' : 'max-h-0'}
+                  `}
+                >
+                  <span className="lg:text-[1rem] font-medium font-inter leading-6 text-[0.85rem]">
+                    {faq.answer}
+                  </span>
+                </div>
               </li>
             ))}
           </ul>

@@ -10,9 +10,7 @@ const Herosection = () => {
       <div className=" max-w-full w-full flex flex-col lg:flex-row  lg:ml-30 items-center  lg:items-start text-center lg:text-left ">
         <div className=" lg:w-1/2 w-full py-8 lg:py-0 ">
         <p className=" uppercase  lg:mt-14 lg:mb-12 text-[2.063rem] lg:px-0 px-6 lg:text-[4.25rem]  font-bold lg:leading-extra lg:tracking-tighter leading-9">
-          Cobhem's dry
-          cleaning & 
-          laundary service
+          Cobhem's dry cleaning & laundary service
         </p>
         <p className=" lg:hidden  text-[1.0625rem] px-26 mb-3 mt-2 font-light">
           Collected and delivered to your door
