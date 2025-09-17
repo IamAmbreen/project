@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       textDecorationColor: {
-        'light-underline': '#061d49',
+        'underline': '#061d49',
       },
       lineHeight:{
         'extra' : '5.625rem',
