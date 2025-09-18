@@ -5,8 +5,8 @@ const Services = () => {
     console.log()
   }
   return (
-    <section className="h-100  bg-customBlue text-white lg:pt-35 pt-15 ">
-           <div className="max-w-full ">
+    <section className="h-100  bg-customBlue text-white lg:pt-35 lg-m:pt-35 md:pt-18 pt-15 ">
+             <div className="max-w-full ">
              <h2 className=" lg:px-72 px-9 text-center  lg:text-[4.5rem] text-[2.0625rem] leading-10 lg:font-semibold font-bold lg:mb-40 mb-20 lg:leading-extra">
                Other Service Loctations
             </h2>
@@ -35,16 +35,15 @@ const Services = () => {
         </div>
         
                <div className=" flex justify-center lg:mb-24 mb-16.5 ">
-            <button
+             <button
           type="button"
-          className="flex gap-2 items-center text-customBlue bg-customYellow lg:text-[1.75rem]  text-[0.875rem] rounded-md lg:rounded-full  px-8.5 lg:px-21 lg:py-4.5 lg:font-inter lg:font-bold font-medium py-2.5 text-center  lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-600"
+          className="flex gap-2 items-center text-customBlue bg-customYellow lg:text-[1.75rem] lg-m:text-[1rem]  text-[0.875rem] rounded-md lg:rounded-full lg-m:rounded-full  px-8.5 lg:px-20 lg-m:px-15 lg:py-3 lg-m:py-5 lg:font-inter lg-m:font-inter lg:font-bold lg-m:font-bold font-medium py-2.5  text-center  lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-600 lg-m:transition-colors  lg-m:duration-300  lg-m:hover:bg-yellow-600"
           onClick={handleOrderClick}>
-          <span className="lg:normal-case uppercase ">Order Now</span>
-          <img src="src/assets/icons/arrow-up-right.png" alt="" className="hidden lg:block  w-3 h-3  lg:w-5 lg:h-5" />
-        </button> 
+          <span className="">Order Now</span>
+          <img src="src/assets/icons/arrow-up-right.png" alt="" className="hidden lg:block lg-m:block  w-3 h-3 lg:w-5 lg:h-5 lg-m:w-4 lg-m:h-4" />
+        </button>
          </div>
-  
-
+          
           <div className="h-100 w-full  lg:bg-customBlue bg-white text-customBlue  lg:py-20 lg:mt-12 lg:pt-0 pt-7 lg:text-white ">
              <div className=" lg:flex px-10 lg:px-30 ">
     <div className=" lg:hidden flex w-[5rem] h-[1.25rem] items-center gap-1">
