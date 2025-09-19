@@ -7,31 +7,31 @@ const Services = () => {
   return (
     <section className="h-100  bg-customBlue text-white lg:pt-35 lg-m:pt-35 md:pt-18 pt-15 ">
              <div className="max-w-full ">
-             <h2 className=" lg:px-72 px-9 text-center  lg:text-[4.5rem] text-[2.0625rem] leading-10 lg:font-semibold font-bold lg:mb-40 mb-20 lg:leading-extra">
+             <h2 className=" lg:px-72 lg-m:px-60 md:px-48 px-9 text-center  lg:text-[4.5rem] lg-m:text-[3.5rem] md:text-[2.5rem] text-[2.0625rem] leading-10 lg:font-semibold font-bold lg:mb-40 mb-20 lg:leading-extra lg-m:leading-normal md:leading-normal">
                Other Service Loctations
             </h2>
             </div> 
-        <div className=" lg:flex items-center lg:flex-row flex flex-col lg:h-[19.63rem] lg:w-full h-[65.25rem] w-full item-center justify-center  px-13 lg:mb-24">
-            <div className="lg:w-1/4 lg:h-full h-1/4  lg:p-12 p-10  lg:border-l-0 border border-white-200 text-white mb-11.5  lg:mb-0 ">
-              <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 lg:h-[2.6467rem] lg:w-[2.6467rem] w-8 h-8"/>
-              <h2 className=" uppercase lg:text-[2rem] lg:pr-16 text-[1.5rem] font-semibold justify-start"> Esher dry cleaners</h2>
+        <div className=" lg:flex lg-m:flex md:flex items-center lg:flex-row lg-m:flex-row md:flex-row flex flex-col lg:h-[19.63rem] lg-m:h-[15.63rem] md:h-[10.25rem] lg:w-full lg-m:w-full md:w-full h-[65.25rem] w-full item-center justify-center lg-m:px-0 md:px-0 px-13 lg:mb-24 lg-m:mb-18 md:mb-10">
+            <div className="lg:w-1/4 lg-m:w-1/4 md:w-1/4 lg:h-full lg-m:h-full md:h-full h-1/4  lg:p-12 lg-m:p-6 md:p-3 p-10  lg:border-l-0 lg-m:border-l-0 md:border-l-0 border border-white-200 text-white mb-11.5  lg:mb-0 lg-m:mb-0 md:mb-0 ">
+              <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 lg:h-[2.6467rem] lg:w-[2.6467rem] lg-m:h-[2.6467rem] lg-m:w-[2.6467rem] md:h-[2rem] md:w-[2rem] w-8 h-8"/>
+              <h2 className=" uppercase lg:text-[2rem] lg-m:text-[1.5rem] md:text-[1rem]  lg:pr-16 lg-m:pr-0 md:pr-10 text-[1.5rem] font-semibold justify-start"> Esher dry cleaners</h2>
             </div>
-            <div className="lg:w-1/4 lg:h-full  h-1/4  lg:p-12 p-9 border border-white-200 text-white mb-11.5  lg:mb-0">
-              <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 lg:h-[2.6467rem] lg:w-[2.6467rem] w-8 h-8"/>
-              <h2 className="uppercase lg:text-[2rem]  text-[1.5rem] font-semibold"> oxshott dry cleaners</h2>
+            <div className="lg:w-1/4 lg-m:w-1/4 md:w-1/4 lg:h-full lg-m:h-full md:h-full  h-1/4  lg:p-12 lg-m:p-6 md:p-3 p-9 border border-white-200 text-white mb-11.5  lg:mb-0 lg-m:mb-0 md:mb-0">
+              <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 lg:h-[2.6467rem] lg:w-[2.6467rem] lg-m:h-[2.6467rem] lg-m:w-[2.6467rem] md:h-[2rem] md:w-[2rem] w-8 h-8"/>
+              <h2 className="uppercase lg:text-[2rem] lg-m:text-[1.5rem] md:text-[1rem]  lg:pr-16 lg-m:pr-0 md:pr-10  text-[1.5rem] font-semibold"> oxshott dry cleaners</h2>
             </div>
-            <div className="lg:w-1/4 lg:h-full  h-1/4  lg:p-12 p-9  lg:border-r-0 border border-white-200 text-white mb-11.5  lg:mb-0">
-              <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 lg:h-[2.6467rem] lg:w-[2.6467rem] w-8 h-8"/>
-              <h2 className="uppercase text-start lg:text-[2rem]  text-[1.5rem] font-semibold"> weybridge cleaners</h2>
+            <div className="lg:w-1/4 lg-m:w-1/4 md:w-1/4 lg:h-full lg-m:h-full md:h-full  h-1/4  lg:p-12 lg-m:p-6 md:p-3 p-9  lg:border-r-0 lg-m:border-r-0 md:border-r-0 border border-white-200 text-white mb-11.5  lg:mb-0 lg-m:mb-0 md:mb-0 ">
+              <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 lg:h-[2.6467rem] lg:w-[2.6467rem] lg-m:h-[2.6467rem] lg-m:w-[2.6467rem] md:h-[2rem] md:w-[2rem] w-8 h-8"/>
+              <h2 className="uppercase text-start lg:text-[2rem] lg-m:text-[1.5rem] md:text-[1rem]  lg:pr-16 lg-m:pr-0 md:pr-10  text-[1.5rem] font-semibold"> weybridge cleaners</h2>
             </div>
-             <div className="  lg:hidden  h-1/4  p-9 border border-white-200 text-white mb-19 ">
+             <div className="  lg:hidden lg-m:hidden md:hidden  h-1/4  p-9 border border-white-200 text-white mb-19 ">
           <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4  w-8 h-8"/>
               <h2 className="uppercase  text-[1.5rem] font-semibold"> leatherhead dry cleaners</h2>
         </div>
         </div>
-        <div className=" hidden  lg:block lg:w-1/4 lg:h-full p-10 mx-auto border border-white-200 text-white lg:mb-45">
-          <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 lg:h-[2.6467rem] lg:w-[2.6467rem]"/>
-              <h2 className="uppercase lg:text-[2rem]   font-semibold"> leatherhead dry cleaners</h2>
+        <div className=" hidden  lg:block lg-m:block md:block lg:w-1/4 lg-m:w-1/4 md:w-1/4 lg:h-[19.63rem] lg-m:h-[15.63rem] md:h-[10.25rem] lg:p-12 lg-m:p-6 md:p-3 p-10 mx-auto border border-white-200 text-white lg:mb-45 lg-m:mb-45 md:mb-30">
+          <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 lg:h-[2.6467rem] lg:w-[2.6467rem] lg-m:h-[2.6467rem] lg-m:w-[2.6467rem] md:h-[2rem] md:w-[2rem]"/>
+              <h2 className="uppercase lg:text-[2rem] lg-m:text-[1.5rem] md:text-[1rem]  lg:pr-16 lg-m:pr-0 md:pr-10   font-semibold"> leatherhead dry cleaners</h2>
         </div>
         
                <div className=" flex justify-center lg:mb-24 mb-16.5 ">
@@ -44,47 +44,94 @@ const Services = () => {
         </button>
          </div>
           
-          <div className="h-100 w-full  lg:bg-customBlue bg-white text-customBlue  lg:py-20 lg:mt-12 lg:pt-0 pt-7 lg:text-white ">
-             <div className=" lg:flex px-10 lg:px-30 ">
-    <div className=" lg:hidden flex w-[5rem] h-[1.25rem] items-center gap-1">
-      <img src="src\assets\icons\logoVector.png" alt="" />
-      <img src="src\assets\icons\logoText.png" alt="" className="h-[1rem]"/>
+          <div className="h-100 w-full  lg:bg-customBlue lg-m:bg-customBlue bg-white text-customBlue  lg:py-14 lg-m:py-10 lg:mt-18 lg-m:mt-12 lg:pt-0 lg-m:pt-0 pt-7 md:pt-10 lg:text-white lg-m:text-white">
+             <div className=" lg:flex lg-m:flex px-10 lg:px-30 lg-m:px-20 ">
+    
+
+
+    <div className="hidden lg-m:block lg:block lg:w-2/5 lg-m:w-2/5">
+      <img src="src\assets\images\Logo small.png" alt="" className=" lg:w-[8.75rem] lg-m:w-[8.75rem]  lg:h-[4rem] lg-m:h-[4rem]"/>
+      <p className=" lg:text-[1rem] lg-m:text-[0.85rem] font-normal lg:pr-17 lg-m:pr-4 lg:leading-5  lg-m:leading-5">Indulge in refined dry cleaning services with Savilles Dry Cleaning & Laundry. With over six decades of expertise, we cater to discerning clients in Cobham, Oxshott, Esher, Weybridge, and the surrounding areas.</p>
     </div>
-    <div className="mt-3">
-      <p className=" lg:hidden text-[0.794375rem] font-normal leading-5 pr-8">Indulge in refined dry cleaning services with Savilles Dry Cleaning & Laundry. With over six decades of expertise, we cater to discerning clients in Cobham, Oxshott, Esher, Weybridge, and the surrounding areas.</p>
-    </div>
-    <div className="hidden  lg:block lg:w-2/5">
-      <img src="src\assets\images\Logo small.png" alt="" className=" lg:w-[8.75rem]  lg:h-[4rem]"/>
-      <p className=" lg:text-[1rem] font-normal lg:pr-17 lg:leading-5">Indulge in refined dry cleaning services with Savilles Dry Cleaning & Laundry. With over six decades of expertise, we cater to discerning clients in Cobham, Oxshott, Esher, Weybridge, and the surrounding areas.</p>
-    </div>
-    <ul className="hidden  lg:block space-y-3 lg:w-3/5  lg:text-[1rem]  lg:pl-14   lg:mt-2 ">
-      <li className="  lg:grid lg:grid-cols-3 items-center font-medium  lg:text-white text-customBlue  lg:gap-28">
+    <ul className="hidden  lg:block lg-m:block space-y-3 lg:w-3/5 lg-m:w-3/5  lg:text-[1rem] lg-m:text-[0.85rem]  lg:pl-14 lg-m:pl-8  lg:mt-2 lg-m:mt-2 ">
+      <li className="  lg:grid lg-m:grid lg:grid-cols-3 lg-m:grid-cols-3 items-center font-medium  lg:text-white lg-m:text-white lg:gap-28 lg-m:gap-20">
         <span className="text-start">Services</span>
         <span>About</span>
         <span className="">Help</span>
       </li>
-      <li className="lg:grid lg:grid-cols-3 items-center font-extralight text-white  lg:gap-28">
-        <span className="text-start  lg:transition-opacity  lg:duration-300  lg:hover:opacity-50"><a href="#">Email Marketing</a></span>
-        <span><a href="#" className=" lg:transition-opacity lg:duration-300  lg:hover:opacity-50">Our Stories</a></span>
-        <span className=" lg:transition-opacity  lg:duration-300  lg:hover:opacity-50"><a href="#">FAQs</a></span>
+      <li className="lg:grid lg-m:grid lg:grid-cols-3 lg-m:grid-cols-3 items-center font-extralight text-white  lg:gap-28 lg-m:gap-20">
+        <span className="text-start  lg:transition-opacity  lg:duration-300  lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50"><a href="#">Email Marketing</a></span>
+        <span><a href="#" className=" lg:transition-opacity lg:duration-300  lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50">Our Stories</a></span>
+        <span className=" lg:transition-opacity  lg:duration-300  lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50"><a href="#">FAQs</a></span>
       </li>
-      <li className=" lg:grid lg:grid-cols-3 items-center font-extralight text-white lg:gap-28">
-        <span className="text-start  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50"><a href="#">Campaigns</a></span>
-        <span><a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50">Benefits</a></span>
-        <span className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50"><a href="#">Contact Us</a></span>
+      <li className=" lg:grid lg-m:grid lg:grid-cols-3 lg-m:grid-cols-3 items-center font-extralight text-white  lg:gap-28 lg-m:gap-20">
+        <span className="text-start  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50"><a href="#">Campaigns</a></span>
+        <span><a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50">Benefits</a></span>
+        <span className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50"><a href="#">Contact Us</a></span>
       </li>
-      <li className=" lg:grid lg:grid-cols-3 items-center font-extralight text-white lg:gap-28">
-        <span className="text-start  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50"><a href="#">Branding</a></span>
-        <span><a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50">Team</a></span>
+      <li className=" lg:grid lg-m:grid lg:grid-cols-3 lg-m:grid-cols-3 items-center font-extralight text-white  lg:gap-28 lg-m:gap-20">
+        <span className="text-start  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50"><a href="#">Branding</a></span>
+        <span><a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50">Team</a></span>
         <span className=""></span>
       </li>
-      <li className=" lg:grid lg:grid-cols-3 items-center font-extralight text-white lg:gap-28">
-        <span className="text-start  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 "><a href="#">Offline</a></span>
-        <span><a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50">Careers</a></span>
+      <li className=" lg:grid lg-m:grid lg:grid-cols-3 lg-m:grid-cols-3 items-center font-extralight text-white  lg:gap-28 lg-m:gap-20">
+        <span className="text-start  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50"><a href="#">Offline</a></span>
+        <span><a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300  lg-m:hover:opacity-50">Careers</a></span>
         <span className=""></span>
       </li>
     </ul>
-    <ul className=" lg:hidden space-y-2 w-[9.375rem] h-[33.75rem] text-[1rem] mx-auto mt-3 ml-0">
+
+
+<div className=" lg:hidden lg-m:hidden hidden md:flex flex-row">
+       <div className="w-2/5" >
+        <div className=" flex flex-row md:w-[5rem] md:h-[1.25rem] items-center gap-1">
+      <img src="src\assets\icons\logoVector.png" alt="" />
+      <img src="src\assets\icons\logoText.png" alt="" className="h-[1rem]"/>
+    </div>
+    <div className="mt-4">
+      <p className=" lg:hidden lg-m:hidden hidden md:block text-[0.75rem] font-light leading-4 pr-8">Indulge in refined dry cleaning services with Savilles Dry Cleaning & Laundry. With over six decades of expertise, we cater to discerning clients in Cobham, Oxshott, Esher, Weybridge, and the surrounding areas.</p>
+    </div>
+       </div>
+      <ul className="hidden  lg:hidden lg-m:hidden md:block space-y-3 w-3/5 text-[0.8rem] font-light text-customBlue  md:pl-8 mt-2 ">
+      <li className="  grid grid-cols-3 items-center font-medium text-customBlue gap-6">
+        <span className="text-start">Services</span>
+        <span>About</span>
+        <span className="">Help</span>
+      </li>
+      <li className="md:grid md:grid-cols-3 items-center  md:gap-6">
+        <span className="text-start "><a href="#">Email Marketing</a></span>
+        <span><a href="#" className=" ">Our Stories</a></span>
+        <span className=""><a href="#">FAQs</a></span>
+      </li>
+      <li className=" md:grid md:grid-cols-3 items-center md:gap-6">
+        <span className="text-start  "><a href="#">Campaigns</a></span>
+        <span><a href="#" className=" ">Benefits</a></span>
+        <span className=" "><a href="#">Contact Us</a></span>
+      </li>
+      <li className=" md:grid md:grid-cols-3 items-center   md:gap-6">
+        <span className="text-start  "><a href="#">Branding</a></span>
+        <span><a href="#" className="">Team</a></span>
+        <span className=""></span>
+      </li>
+      <li className="  md:grid md:grid-cols-3 items-center   md:gap-6 ">
+        <span className="text-start"><a href="#">Offline</a></span>
+        <span><a href="#" className=" ">Careers</a></span>
+        <span className=""></span>
+      </li>
+    </ul>
+
+</div>
+    
+
+
+    <div className=" lg:hidden lg-m:hidden md:hidden flex w-[5rem] h-[1.25rem] items-center gap-1">
+      <img src="src\assets\icons\logoVector.png" alt="" />
+      <img src="src\assets\icons\logoText.png" alt="" className="h-[1rem]"/>
+    </div>
+    <div className="mt-3">
+      <p className=" lg:hidden  lg-m:hidden md:hidden text-[0.794375rem] font-normal leading-5 pr-8">Indulge in refined dry cleaning services with Savilles Dry Cleaning & Laundry. With over six decades of expertise, we cater to discerning clients in Cobham, Oxshott, Esher, Weybridge, and the surrounding areas.</p>
+    </div>
+    <ul className=" lg:hidden lg-m:hidden md:hidden space-y-2 w-[9.375rem] h-[33.75rem] text-[1rem] mx-auto mt-3 ml-0">
       <li className="grid grid-rows-5 text-customBlue gap-4">
         <span className="text-start font-bold font-inter text-[1.125rem]">Services</span>
         <span>Email Marketing</span>
@@ -107,13 +154,13 @@ const Services = () => {
     </ul>
   </div>
 
-   <div className="bg-customBlue text-white lg:px-27 pl-10 lg:ml-3 h-[2.6rem] lg:h-auto w-full flex items-center  lg:w-full lg:mt-22">
-    <a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50  font-medium lg:text-[1rem] text-[0.625rem]">Terms and Conditions</a>
-    <span className=" lg:ml-24 ml-5 "><a href="#" className=" lg:transition-opacity  lg:duration-300 font-medium lg:hover:opacity-50  lg:text-[1rem]  text-[0.625rem]">Privacy Policy</a></span>
-    <div className="flex justify-end  lg:ml-auto lg:mr-8  ml-20">
-      <a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50"><img src="src\assets\icons\facebook.png" alt="" className="lg:w-[0.625rem] lg:h-[1.25rem]   h-[0.8rem] w-[0.44rem]"/></a>
-      <a href="#" className=" lg:ml-10 ml-5  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50"><img src="src\assets\icons\twitter.png" alt="" className="lg:w-[1.375rem] lg:h-[1.125rem]  h-[0.8rem] w-[1rem]"/></a>
-      <a href="#" className=" lg:ml-10 ml-5  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50"><img src="src\assets\icons\instagram.png" alt="" className="lg:w-[1.375rem] lg:h-[1.375rem] h-[0.8rem] w-[0.9375rem]"/></a>
+   <div className="bg-customBlue text-white lg:px-27 lg-m:px-16 md:px-10 pl-10 lg:ml-3 lg-m:ml-3 h-[2.6rem] lg:h-auto lg-m:h-auto w-full flex items-center  lg:w-full lg-m:w-full lg:mt-22 lg-m:mt-22">
+    <a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300 lg-m:hover:opacity-50  font-medium lg:text-[1rem] lg-m:text-[0.9rem] md:text-[0.8rem] text-[0.525rem]">Terms and Conditions</a>
+    <span className=" lg:ml-24 lg-m:ml-20 md:ml-15 ml-3 "><a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300 lg-m:hover:opacity-50   font-medium lg:text-[1rem] lg-m:text-[0.9rem] md:text-[0.8rem] text-[0.525rem]">Privacy Policy</a></span>
+    <div className="flex justify-end  lg:ml-auto lg-m:ml-auto md:ml-auto lg:mr-8 lg-m:pr-10 md:pr-6 ml-20">
+      <a href="#" className=" lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300 lg-m:hover:opacity-50"><img src="src\assets\icons\facebook.png" alt="" className="lg:w-[0.625rem] lg:h-[1.25rem] lg-m:w-[0.625rem] lg-m:h-[1.25rem]   h-[0.8rem] w-[0.44rem]"/></a>
+      <a href="#" className=" lg:ml-10 lg-m:ml-10 ml-5  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300 lg-m:hover:opacity-50"><img src="src\assets\icons\twitter.png" alt="" className="lg:w-[1.375rem] lg:h-[1.125rem] lg-m:w-[1.375rem] lg-m:h-[1.125rem]  h-[0.8rem] w-[1rem]"/></a>
+      <a href="#" className=" lg:ml-10 lg-m:ml-10 ml-5  lg:transition-opacity  lg:duration-300 lg:hover:opacity-50 lg-m:transition-opacity  lg-m:duration-300 lg-m:hover:opacity-50"><img src="src\assets\icons\instagram.png" alt="" className="lg:w-[1.375rem] lg:h-[1.375rem] lg-m:w-[1.375rem] lg-m:h-[1.375rem] h-[0.8rem] w-[0.9375rem]"/></a>
     </div>
   </div> 
           </div>

@@ -6,22 +6,22 @@ const Herosection = () => {
   };
 
   return (
-<section className="h-100 flex flex-col lg:flex-row lg-m:flex-row md:flex-row items-center bg-customBlue text-white">
-   <div className=" max-w-full w-full flex flex-col lg:flex-row lg-m:flex-row md:flex-row lg:ml-30 lg-m:ml-8 items-center lg:items-start lg-m:items-start md:items-start text-center lg:text-left lg-m:text-left md:text-left ">
- <div className=" lg:w-1/2 lg-m:w-1/2 md:w-1/2 w-full lg:flex lg:flex-col lg:justify-center item-center lg-m:flex lg-m:flex-col lg-m:justify-center py-8 lg:py-0 lg-m:py-0 md:py-3 md:ml-10 ">
- <p className=" uppercase items-center lg:mt-14 lg:mb-12   lg-m:mt-10 lg-m:mb-4 text-[2.063rem] lg:px-0 md:px-0 lg-m:px-0 px-6 lg:text-[4.25rem] lg-m:text-[3rem] md:text-[2.25rem] font-bold lg:leading-extra lg:tracking-tighter  lg-m:leading-normal lg-m:tracking-tighter  md:leading-normal md:tracking-tighter leading-9">
+<section className="h-100 flex flex-col md:flex-row lg-m:flex-row lg:flex-row xl:flex-row  items-center bg-customBlue text-white">
+   <div className=" max-w-full w-full flex flex-col  md:flex-row lg-m:flex-row lg:flex-row  items-center md:items-center lg-m:items-center lg:items-center   text-center  md:text-left lg-m:text-left lg:text-left  ">
+ <div className="  w-full md:w-1/2 lg-m:w-1/2 lg:w-1/2  lg-m:flex lg-m:flex-col lg-m:justify-center lg:flex lg:flex-col lg:justify-center item-center py-8 md:py-0 lg-m:py-0 lg:py-0 px-6 md:px-8 lg-m:px-9  lg:px-14 xl:px-33  ">
+ <p className=" uppercase items-center text-[2.063rem] md:text-[2.2rem] lg-m:text-[3rem] lg:text-[4.2rem] xl:text-[7rem] md:mb-10 lg-m:mb-12 lg:mb-20 xl:mb-36 font-bold leading-9 md:leading-11 lg-m:leading-16 lg:leading-extra xl:leading-36 md:tracking-tighter lg-m:tracking-tighter lg:tracking-tighter xl:tracking-tighter  ">
  Cobhem's dry cleaning & laundary service
  </p>
  <p className=" lg:hidden lg-m:hidden md:hidden text-[1.0625rem] px-26 mb-3 mt-2 font-light">
   Collected and delivered to your door
  </p>
  <div className="">
-  <button type="button" className="lg:normal-case lg-m:normal-case md:normal-case uppercase text-customBlue bg-customYellow items-center rounded-md md:round-md lg:text-[1rem] lg-m:text-[1rem] md:text-[1rem] text-xl px-6.5 py-4.5 lg:py-4 lg-m:px-7 lg-m:py-4 md:px-7 md:py-4 lg:px-7 font-inter lg:font-bold lg-m:font-bold md:font-bold font-medium text-center lg:transition-colors lg:duration-300  lg:rounded-full lg-m:transition-colors lg-m:duration-300  lg-m:rounded-full md:transition-colors md:duration-300 " onClick={handleSchedulePickupClick}>Schedule Your Pickup</button>
+  <button type="button" className=" lg-m:normal-case lg:normal-case xl:normal-case uppercase text-customBlue bg-customYellow items-center rounded-md md:round-md lg-m:rounded-full lg:rounded-full xl:rounded-full  text-xl md:text-[1rem] lg-m:text-[1rem] lg:text-[1rem] xl:text-[2rem]  px-6.5 md:px-7 lg-m:px-7 lg:px-7 xl:px-11 py-4.5 md:py-4 lg-m:py-4 lg:py-4 xl:py-9  font-inter font-medium md:font-bold lg-m:font-bold lg:font-bold xl:font-bold text-center  md:transition-colors md:duration-300  lg-m:transition-colors lg-m:duration-300  lg:transition-colors lg:duration-300 xl:transition-colors xl:duration-300  " onClick={handleSchedulePickupClick}>Schedule Your Pickup</button>
  </div>
    </div>
 
-   <div className="hidden lg:flex lg-m:flex  md:flex  ml-auto lg:w-1/2 lg-m:w-1/2 md:w-1/2 ">
- <img src="src\assets\images\image.png" alt="Laundry Service" className=" lg:w-full lg:h-full lg-m:w-full lg-m:h-full md:w-full md:h-full"/>
+   <div className="hidden  md:flex lg-m:flex lg:flex   ml-auto md:w-1/2 lg-m:w-1/2 lg:w-1/2 xl:w-1/2  ">
+ <img src="src\assets\images\image.png" alt="Laundry Service" className=" md:w-full md:h-full lg-m:w-full lg-m:h-full lg:w-full lg:h-full xl:h-full xl:w-full  "/>
    </div>
    </div>
   </section> 

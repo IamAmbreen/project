@@ -16,7 +16,7 @@ const sections: SectionData[] = [
     alignment: 'justify-end',
     titleCenter: false,
     heightClass : 'lg:h-[22.94rem] lg-m:h-[15.94rem] md:h-[15rem] h-[18.375rem]',
-    paragraphPaddingClass : 'lg:pr-91 lg:pl-18.5 lg-m:pr-60 lg-m:pl-18.5 pr-10 pl-12',
+    paragraphPaddingClass : 'lg:pr-91 lg:pl-18.5 lg-m:pr-60 lg-m:pl-18.5 md:pr-10 md:pl-12 pr-4 pl-12',
      innerPaddingClass: 'lg:py-13',
     
   },
@@ -26,7 +26,7 @@ const sections: SectionData[] = [
     alignment: 'justify-start',
     titleCenter: true,
     heightClass : 'lg:h-[26.94rem] lg-m:h-[15.94rem] md:h-[15rem] h-[19.375rem]',
-    paragraphPaddingClass : 'lg:pl-52 lg:pr-56 lg-m:pr-14 lg-m:pl-52  pl-26 pr-12',
+    paragraphPaddingClass : 'lg:pl-52 lg:pr-56 lg-m:pr-14 lg-m:pl-52  md:pl-26 md:pr-12 pl-14 pr-6',
     
   },
   {
@@ -35,7 +35,7 @@ const sections: SectionData[] = [
     alignment: 'justify-end',
     titleCenter: false,
     heightClass : 'lg:h-[22.94rem] lg-m:h-[15.94rem] md:h-[15rem] h-[18.375rem] ',
-     paragraphPaddingClass : 'lg:pr-91 lg:pl-18.5 lg-m:pr-60 lg-m:pl-18.5  pr-10 pl-12',
+     paragraphPaddingClass : 'lg:pr-91 lg:pl-18.5 lg-m:pr-60 lg-m:pl-18.5  md:pr-10 md:pl-12 pr-4 pl-12',
       innerPaddingClass: 'lg:py-13',
      
 
@@ -52,10 +52,10 @@ const DynamicSection = () => {
       {sections.map((section, index) => (
         <div key={index} className={`flex ${section.alignment} lg:mb-24 lg-m:mb-16 mb-15 ${index === sections.length - 1 ? '' : ''}`}>
           <div className={` bg-customBlue w-3/4 text-white text-start flex flex-col justify-center ${section.heightClass} `}>
-            <h1 className={` lg:mb-5 lg-m:mb-5 lg:mt-0 lg-m:mt-0 mt-2 mb-4 lg:text-6xl lg-m:4xl md:text-3xl text-2xl lg:font-semibold lg-m:font-semibold font-jakarta font-bold ${section.titleCenter ? '' : ''} ${index === 1 ? 'lg:pl-52 lg-m:pl-52 pl-26' : 'lg:pl-18.5 lg-m:pl-18.5 pl-12'}`}>
+            <h1 className={` lg:mb-5 lg-m:mb-5 lg:mt-0 lg-m:mt-0 mt-2 mb-4 lg:text-6xl lg-m:4xl md:text-3xl text-2xl lg:font-semibold lg-m:font-semibold font-jakarta font-bold ${section.titleCenter ? '' : ''} ${index === 1 ? 'lg:pl-52 lg-m:pl-52 pl-14' : 'lg:pl-18.5 lg-m:pl-18.5 pl-12'}`}>
               {section.title}
             </h1>
-            <p className={`  lg:text-[1.3rem]  lg-m:text-[1rem] md:text-[1rem] lg:font-extralight lg-m:font-extralight font-inter font-normal leading-[19.4px] lg:leading-7 lg-m:leading-6 mb-3 text-[0.875rem] ${section.paragraphPaddingClass}`}>
+            <p className={`  lg:text-[1.3rem]  lg-m:text-[1rem] md:text-[1rem] lg:font-extralight lg-m:font-extralight font-inter font-normal leading-[19.4px] lg:leading-7 lg-m:leading-6 mb-3 text-[0.69rem] ${section.paragraphPaddingClass}`}>
               {section.description}
             </p>
           </div>

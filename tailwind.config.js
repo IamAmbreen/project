@@ -3,7 +3,17 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 export default {
   content: [ "/.index.html" , "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+     screens: {
+            'md': {'min': '720px'},
+      'lg-m': {'min': '1024px'},
+       'lg': {'min': '1440px'},
+       'xl' : {'min' : '2560px'},
+
+      },
     extend: {
+       fontSize: {
+        'fluid-h1': 'clamp(2.063rem, 5vw, 4.25rem)',
+      },
       textDecorationColor: {
         'underline': '#061d49',
       },
@@ -13,6 +23,10 @@ export default {
         '10.5' : '2.625rem',
         '11' : '2.75rem',
         '12' : '3rem',
+        '16' : '4rem',
+        '24' : '6rem',
+        '36' :'9rem',
+        '48' : '12rem',
         
       },
       margin:{
@@ -164,14 +178,6 @@ export default {
          '29' : '116px',
          '30' : '120px',
          '31' : '124px',
-      },
-      screens: {
-
-            'md' : '768px',
-            'lg-m' : '1024px',
-            'lg' : '1440px',
-          
-
       },
       colors: {
                 customBlue :'#061d49',
