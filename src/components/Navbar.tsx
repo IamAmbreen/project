@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-customBlue text-customGray border-b-2 border-customGray  px-6 md:px-8 lg-m:px-9 lg:px-14 xl:px-33 py-4  md:h-[5.125rem] lg-m:h-[7.125rem] lg:h-[7.125rem] xl:h-[8.9rem] items-center">
+    <nav className="w-full bg-customBlue text-customGray border-b-2 border-customGray px-6 md:px-8 lg-m:px-24 lg:px-30 xl:px-36 py-4  md:h-[5.125rem] lg-m:h-[7.125rem] lg:h-[7.125rem] xl:h-[8.9rem] items-center">
       <div className="flex justify-between text-xl lg:text-xl xl:text-3xl   ">
         <div className="flex item-center">
           <button
@@ -56,8 +56,12 @@ const Navbar = () => {
           <a href="#" className="lg-m:hidden lg:hidden xl:hidden text-white md:text-[1rem]  text-[0.69rem] mr-[0.625rem]">
             Login
           </a>
-             <button type="button" className=" uppercase lg-m:normal-case lg:normal-case xl:normal-case text-customBlue bg-customYellow items-center rounded-md md:round-md    text-xl md:text-[1rem] lg-m:text-[1rem] lg:text-[1rem] xl:text-[2rem] px-6.5 py-4.5 md:px-5 md:py-2 lg-m:px-7 lg-m:py-4 lg:px-7 lg:py-3 xl:px-14 xl:py-9   font-inter lg:font-bold lg-m:font-bold md:font-bold font-medium text-center lg:transition-colors lg:duration-300  lg:rounded-full lg-m:transition-colors lg-m:duration-300  lg-m:rounded-full md:transition-colors md:duration-300 " onClick={handleBookNowClick}>Book Now</button>
-
+              <button
+          type="button"
+          className="flex items-center text-customBlue bg-customYellow text-[0.875rem] lg-m:text-[1rem]  lg:text-[1rem] xl:text-[2rem] rounded-md lg-m:rounded-full  lg:rounded-full xl:rounded-full  px-5 lg-m:px-8 lg:px-8 xl:px-12 lg-m:py-3 lg:py-3 xl:py-7 lg-m:font-inter lg:font-inter xl:font-inter font-medium  lg-m:font-bold lg:font-bold xl:font-bold  py-2.5  text-center lg-m:transition-colors  lg-m:duration-300  lg-m:hover:bg-yellow-600 lg:transition-colors  lg:duration-300  lg:hover:bg-yellow-600 xl:transition-colors  xl:duration-300  xl:hover:bg-yellow-600 "
+          onClick={handleBookNowClick}>
+          <span className="uppercase lg-m:normal-case lg:normal-case xl:normal-case ">Book Now</span>
+            </button>
         </div>
       </div>
       <div

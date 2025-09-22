@@ -78,7 +78,7 @@ const Pricing = () => {
               ${cardIndex === 1 ? ' md:border lg-m:border-4 lg:border-8 xl:border-8' : ' md:border lg-m:border-2 lg:border-2 xl:border-2 '}
               border-white-200`} >
             <h2 className=" text-xl md:text-xl lg-m:text-2xl lg:text-2xl xl:text-4xl  font-semibold  mb-8 md:mb-10 lg-m:mb-12 lg:mb-22 xl:mb-26  text-customGray">{card.title}</h2>
-            <p className="font-medium w-full md:w-full lg-m:w-full lg:w-full xl:w-full text-[0.6875rem]  md:text-xs  lg-m:text-sm lg:text-xl xl:text-3xl pr-30 md:pr-22 lg-m:pr-18 lg:pr-32 xl:pr-65 pl-5 lg:pl-5  xl:pl-12 mb-3  "> {card.subtitle}</p>
+            <p className="font-medium w-full md:w-full lg-m:w-full lg:w-full xl:w-full text-[0.6875rem]  md:text-xs  lg-m:text-sm lg:text-xl xl:text-3xl pr-38 md:pr-21.5 lg-m:pr-18 lg:pr-32 xl:pr-65 pl-5 lg:pl-5  xl:pl-12 mb-3  "> {card.subtitle}</p>
             <ul className="space-y-5 xl:space-y-10 text-[0.6875rem] lg:text-xl xl:text-3xl mb-4 lg:mb-5  font-normal md:font-extralight lg-m:font-extralight lg:font-extralight ">
               
               {card.items.map((item, itemIndex) => (
