@@ -18,7 +18,7 @@ const Services = () => {
             </div>
             <div className=" xl:w-1/4 xl:h-full lg:w-1/4 lg-m:w-1/4 md:w-1/4 lg:h-full lg-m:h-full md:h-full  h-1/4 xl:p-20 lg:p-12 lg-m:p-6 md:p-3 p-9 border border-white-200 text-white mb-11.5  lg:mb-0 lg-m:mb-0 md:mb-0">
               <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 xl:h-[4.5rem] xl:w-[4.5rem] lg:h-[2.6467rem] lg:w-[2.6467rem] lg-m:h-[2.6467rem] lg-m:w-[2.6467rem] md:h-[2rem] md:w-[2rem] w-8 h-8"/>
-              <h2 className="uppercase xl:text-[3.5rem] lg:text-[2rem] lg-m:text-[1.5rem] md:text-[1rem] pr-8 lg:pr-16 lg-m:pr-0 md:pr-10  text-[1.5rem] font-semibold"> oxshott dry cleaners</h2>
+              <h2 className="uppercase xl:text-[3.5rem] lg:text-[2rem] lg-m:text-[1.5rem] md:text-[1rem] pr-8 lg:pr-4 lg-m:pr-0 md:pr-10  text-[1.5rem] font-semibold"> oxshott dry cleaners</h2>
             </div>
             <div className="xl:w-1/4 xl:h-full lg:w-1/4 lg-m:w-1/4 md:w-1/4 lg:h-full lg-m:h-full md:h-full  h-1/4  xl:p-20 lg:p-12 lg-m:p-6 md:p-3 p-9  lg:border-r-0 lg-m:border-r-0 md:border-r-0 border border-white-200 text-white mb-11.5  lg:mb-0 lg-m:mb-0 md:mb-0 ">
               <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 xl:h-[4.5rem] xl:w-[4.5rem] lg:h-[2.6467rem] lg:w-[2.6467rem] lg-m:h-[2.6467rem] lg-m:w-[2.6467rem] md:h-[2rem] md:w-[2rem] w-8 h-8"/>
@@ -31,7 +31,7 @@ const Services = () => {
         </div>
         <div className=" hidden xl:block lg:block lg-m:block md:block xl:w-1/4  lg:w-1/4  lg-m:w-1/4 md:w-1/4 xl:h-[30rem] lg:h-[19.63rem] lg-m:h-[15.63rem] md:h-[10.25rem] xl:p-20 lg:p-12 lg-m:p-6 md:p-3 p-10 mx-auto border border-white-200 text-white lg:mb-45 lg-m:mb-45 md:mb-30">
           <img src="src\assets\icons\number.png" alt="" className="justify-start mb-4 xl:h-[4.5rem] xl:w-[4.5rem] lg:h-[2.6467rem] lg:w-[2.6467rem] lg-m:h-[2.6467rem] lg-m:w-[2.6467rem] md:h-[2rem] md:w-[2rem]"/>
-              <h2 className="uppercase xl:text-[3.5rem] lg:text-[2rem] lg-m:text-[1.5rem] md:text-[1rem]  lg:pr-16 lg-m:pr-0 md:pr-10   font-semibold"> leatherhead dry cleaners</h2>
+              <h2 className="uppercase xl:text-[3.5rem] lg:text-[2rem] lg-m:text-[1.5rem] md:text-[1rem]  lg:pr-4 lg-m:pr-0 md:pr-10   font-semibold"> leatherhead dry cleaners</h2>
         </div>
         
                <div className=" flex justify-center lg:mb-24 xl:mb-48 mb-16.5 ">
