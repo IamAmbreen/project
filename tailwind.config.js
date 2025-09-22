@@ -7,7 +7,7 @@ export default {
             'md': {'min': '720px'},
       'lg-m': {'min': '1024px'},
        'lg': {'min': '1440px'},
-       'xl' : {'min' : '2560px'},
+       'xl' : {'min': '2550px'},
 
       },
     extend: {
